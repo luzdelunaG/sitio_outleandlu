@@ -1,7 +1,12 @@
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+  src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 html {
@@ -268,7 +273,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-size: 16px;
   line-height: 1.6875;
   color: #3D3D3D;
@@ -278,7 +283,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: Roboto;
   font-size: inherit;
   line-height: inherit;
 }
@@ -373,7 +378,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Roboto;
   font-weight: 500;
   line-height: 1.1;
   color: #ffffff;
@@ -721,7 +726,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Roboto;
 }
 code {
   padding: 2px 4px;
@@ -4864,7 +4869,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5161,7 +5166,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  font-family: Roboto;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -5782,10 +5787,10 @@ h6.small {
 /* /title-decimal */
 /* fonts */
 .main-font {
-  font-family: Georgia, sans-serif;
+  font-family: Roboto;
 }
 .custom-font {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
 }
 /* /fonts */
 /*  */
@@ -6934,7 +6939,7 @@ a.color:hover {
   top: 10px;
   left: 0;
   color: #ff4c29;
-  font-family: 'Material Icons';
+  font-family: Roboto;
   content: "\e3a6";
   font-size: 0.53em;
   line-height: 1em;
@@ -10945,7 +10950,7 @@ footer.layout-7 .footer-copyright .row {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 600;
 }
 .product__label--right {
@@ -11417,7 +11422,7 @@ footer.layout-7 .footer-copyright .row {
   font-size: 1.875em;
   line-height: 1em;
   color: #ffffff;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 400;
   text-align: center;
 }
@@ -13244,13 +13249,13 @@ footer.layout-7 .footer-copyright .row {
   padding-top: 5px;
   color: #ff4c29;
   text-transform: uppercase;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
 }
 .slider-blog-layout1 .slider-blog__item h6 em {
   font-size: 18px;
   color: #ffffff;
   text-transform: none;
-  font-family: Georgia, sans-serif;
+  font-family: Roboto;
 }
 /* /slider-blog-layout1
 ==================================== */
@@ -13354,7 +13359,7 @@ footer.layout-7 .footer-copyright .row {
 }
 .recent-post-box h4 {
   color: #ff4c29;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 1.375em;
   line-height: 1.182em;
@@ -16363,7 +16368,7 @@ aside .recent-post-box {
   letter-spacing: 0px;
   font-weight: 500;
   margin: 0 0 27px 0;
-  font-family: Ubuntu, sans-serif !important;
+  font-family: Roboto !important;
 }
 @media (max-width: 360px) {
   .banner .figcaption .size40 {
@@ -17886,7 +17891,7 @@ aside .recent-post-box {
   font-size: 24px;
   line-height: 1em;
   text-align: center;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: lighter;
 }
 .input-counter span {
@@ -17898,7 +17903,7 @@ aside .recent-post-box {
   position: absolute;
   top: 50%;
   margin-top: -15px;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 500;
   -moz-opacity: 0.3;
   -khtml-opacity: 0.3;
@@ -18062,13 +18067,13 @@ aside .recent-post-box {
   font-size: 20px;
   line-height: 40px;
   color: #ffffff;
-  font-family: Georgia, sans-serif;
+  font-family: Roboto;
   font-style: italic;
 }
 .tp-caption1--wd-2 {
   font-size: 80px;
   line-height: 100px;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   color: #ff4c29;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -18173,14 +18178,14 @@ aside .recent-post-box {
   line-height: 50px;
   color: #ffffff;
   font-style: italic;
-  font-family: Georgia, sans-serif;
+  font-family: Roboto;
   text-align: right;
 }
 /* tp-caption2--wd-2 */
 .tp-caption2--wd-2 {
   font-size: 160px;
   line-height: 160px;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
@@ -18190,7 +18195,7 @@ aside .recent-post-box {
 .tp-caption2--wd-3 {
   font-size: 70px;
   line-height: 80px;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 300;
   text-transform: uppercase;
   color: #ffffff;
@@ -18265,7 +18270,7 @@ aside .recent-post-box {
   font-size: 50px;
   line-height: 70px;
   color: #ff4c29;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -18275,7 +18280,7 @@ aside .recent-post-box {
   font-size: 100px;
   line-height: 100px;
   color: #ffffff;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -18323,7 +18328,7 @@ aside .recent-post-box {
   line-height: 1em;
   margin: 0 0 10px 85px;
   color: #fff;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   text-transform: uppercase;
 }
 .tp-caption4--wd-2 {
@@ -18331,7 +18336,7 @@ aside .recent-post-box {
   line-height: 1em;
   margin: 0 0 0 85px;
   color: #fff;
-  font-family: Ubuntu, sans-serif;
+  font-family:  Roboto;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -18496,7 +18501,7 @@ body.stop-scrolling #slider .tp-leftarrow {
 .slider-layout-2 .tp-caption1--wd-2 {
   font-size: 80px;
   line-height: 100px;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -18964,7 +18969,7 @@ body.stop-scrolling #slider .tp-leftarrow {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 600;
 }
 .promos h2 {
@@ -19628,7 +19633,7 @@ li.open .expander-list ul {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   font-weight: 600;
   padding: 0.5em;
 }
@@ -20371,7 +20376,7 @@ li.open .expander-list ul {
   text-align: center;
   padding-top: 11px;
   font-style: normal;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   padding-bottom: 1px;
 }
 .post__title_block .post__title {
@@ -22549,7 +22554,7 @@ li.open .expander-list ul {
   font-size: 50px;
   line-height: 1em;
   font-weight: 500;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto;
   padding-top: 11%;
 }
 .countdown-transparent .countdown-period {

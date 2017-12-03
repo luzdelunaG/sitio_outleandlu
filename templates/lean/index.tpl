@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="col-md-6 padding">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6728.170635141871!2d-117.02077617619491!3d32.52386822419642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9484423056645%3A0xfff2f331c7687c4b!2sPaseo+de+los+H%C3%A9roes+7002%2C+Zona+Urbana+Rio+Tijuana%2C+22010+Tijuana%2C+B.C.!5e0!3m2!1ses-419!2smx!4v1512164154252" width="800" height="318" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6728.170635141871!2d-117.02077617619491!3d32.52386822419642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9484423056645%3A0xfff2f331c7687c4b!2sPaseo+de+los+H%C3%A9roes+7002%2C+Zona+Urbana+Rio+Tijuana%2C+22010+Tijuana%2C+B.C.!5e0!3m2!1ses-419!2smx!4v1512164154252" class="mapatam" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-md-12 padding backgroundblank">

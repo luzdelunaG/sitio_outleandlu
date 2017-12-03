@@ -1,11 +1,11 @@
 @font-face {
   font-family: "OpenSans";
-  src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+  src: url(../fonts/Roboto-bold.ttf) format('truetype');
 }
 
 @font-face {
@@ -146,6 +146,94 @@ color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-
 }
 .margindiesioch{
   margin-left: 13.5rem;
-padding-top: 0.9rem;
-padding-bottom: 0.9rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.anchovideo{
+  width:480px; height:200px;
+}
+
+.mapatam{
+  width:800px;height:318px;
+}
+
+@media screen and (min-width:1500px){
+  .margend{
+    margin-right: -9rem;
+  }
+  .txtci {
+    margin-left: 1rem;
+  }
+  .container {
+    width: 1200px !important;
+  }
+  .margincu {
+    margin-left: 38rem;
+  }
+  .imgu {
+    margin-left: 6rem;
+  }
+  .imgcarousel{
+    width: 100%;
+  }
+  .sincir{
+    width: 100%;
+  }
+  #image{
+    width: 45.9rem;
+  }
+
+  #image{
+    width: 45.9rem;
+  }
+
+  #image2{
+    width: 45.9rem;
+  }
+
+  #image3{
+    width: 45.9rem;
+  }
+
+  .anchovideo {
+    width: 628px;
+  }
+
+  .margincat {
+    margin-bottom: 1.1rem;
+  }
+
+  .mapatam{
+    width:800px;height:318px;
+  }
+
+  .mapatam {
+    width: 1000px;
+    height: 284px;
+  }
+
+  .imgu {
+    margin-left: 0rem;
+  }
+
+  .margindiesioch {
+    margin-left: 17rem;
+  }
+
+  footer input {
+    width: 29.4rem;
+  }
+
+  .anchonoti{
+    width: 95% !important;
+  }
+
+  .enviar {
+    margin-left: -8.5rem;
+  }
+
+  .margindiesi {
+    margin-left: 21rem !important;
+  }
 }
