@@ -68,7 +68,7 @@
                           <li class="licolor">> <a href="#" class="list-nav-txt">Materiales para Entretenimiento Lean</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 padding">
                         <ul class="list-nav">
                           <li><a href="#" class="list-nav-txt"><b>Estaciones de trabajo</b></a></li>
                           <li><a href="#" class="list-nav-txt">Moving carts</a></li>
@@ -76,13 +76,16 @@
                           <li><a href="#" class="list-nav-txt">Flow-racks</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 padding">
                         <ul class="list-nav">
                           <li><a href="#" class="list-nav-txt"><b>Estructuras tubulares</b></a></li>
                           <li><a href="#" class="list-nav-txt">Estaciones de trabajo ergonómicas diseñadas a la medida (custum)</a></li>
                           <li><a href="#" class="list-nav-txt">Mesas de trabajo estándar (prediseñadas)</a></li>
                         </ul>
                     </div>
+										<div class="col-md-3">
+											<a href="#"><img src="fileimages/productos/m2.png" alt=""></a>
+										</div>
                     <div class="col-md-12 backgroundlist">.</div>
                   </div>
                   <!--<ul class="dropdown-menu">
