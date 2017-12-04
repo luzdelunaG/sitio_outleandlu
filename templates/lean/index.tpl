@@ -60,11 +60,41 @@
                 <li class=""><a href="#">Acerca de Nosotros |</a></li>
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>Nuestras Soluciones |</a>
-                  <ul class="dropdown-menu">
+                  <div class="dropdown-menu">
+                    <div class="col-md-3">
+                        <ul class="list-nav">
+                          <li class="licolor">> <a href="#" class="list-nav-txt"><b>Mobiliario Lean</b></a></li>
+                          <li class="licolor">> <a href="#" class="list-nav-txt">Controles Visuales</a></li>
+                          <li class="licolor">> <a href="#" class="list-nav-txt">Materiales para Entretenimiento Lean</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-nav">
+                          <li><a href="#" class="list-nav-txt"><b>Estaciones de trabajo</b></a></li>
+                          <li><a href="#" class="list-nav-txt">Moving carts</a></li>
+                          <li><a href="#" class="list-nav-txt">Racks de materiales</a></li>
+                          <li><a href="#" class="list-nav-txt">Flow-racks</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-nav">
+                          <li><a href="#" class="list-nav-txt"><b>Estructuras tubulares</b></a></li>
+                          <li><a href="#" class="list-nav-txt">Estaciones de trabajo ergonómicas diseñadas a la medida (custum)</a></li>
+                          <li><a href="#" class="list-nav-txt">Mesas de trabajo estándar (prediseñadas)</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 backgroundlist">.</div>
+                  </div>
+                  <!--<ul class="dropdown-menu">
                     <li><a href="#">Mobiliario Lean</a></li>
                     <li><a href="#">Controles Visuales</a></li>
                     <li><a href="#">Materiales para Entretenimiento Lean</a></li>
                   </ul>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Mobiliario Lean</a></li>
+                    <li><a href="#">Controles Visuales</a></li>
+                    <li><a href="#">Materiales para Entretenimiento Lean</a></li>
+                  </ul>-->
                 </li>
                 <li><a href="#">Blog |</a></li>
                 <li><a href="#">Contacto |</a></li>

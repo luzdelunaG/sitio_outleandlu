@@ -2791,7 +2791,13 @@ tbody.collapse.in {
   list-style: none;
   font-size: 16px;
   text-align: left;
-  background-color: #141414;
+  background: rgba(200,204,207,1);
+background: -moz-linear-gradient(left, rgba(200,204,207,1) 0%, rgba(200,204,207,0.89) 70%, rgba(8,167,232,0.84) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(200,204,207,1)), color-stop(70%, rgba(200,204,207,0.89)), color-stop(100%, rgba(8,167,232,0.84)));
+background: -webkit-linear-gradient(left, rgba(200,204,207,1) 0%, rgba(200,204,207,0.89) 70%, rgba(8,167,232,0.84) 100%);
+background: -o-linear-gradient(left, rgba(200,204,207,1) 0%, rgba(200,204,207,0.89) 70%, rgba(8,167,232,0.84) 100%);
+background: -ms-linear-gradient(left, rgba(200,204,207,1) 0%, rgba(200,204,207,0.89) 70%, rgba(8,167,232,0.84) 100%);
+background: linear-gradient(to right, rgba(200,204,207,1) 0%, rgba(200,204,207,0.89) 70%, rgba(8,167,232,0.84) 100%);
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -2822,7 +2828,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
-  background-color: #000000;
+  /*background-color: #000000;*/
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -13833,12 +13839,12 @@ aside .recent-post-box {
     line-height: 1em;
     padding: 16px 7px 17px;
     text-decoration: none;
-    border-bottom: 1px solid #444444;
+    /*border-bottom: 1px solid #444444;*/
     font-weight: 300;
   }
   .dropdown .dropdown-menu > li > a:hover {
-    background-color: #282828;
-    color: #ffffff;
+    /*background-color: #282828;
+    color: #ffffff;*/
   }
   .dropdown .dropdown-menu > li > a .icon {
     font-size: 1.125em;
@@ -13984,7 +13990,7 @@ aside .recent-post-box {
 }
 @media (min-width: 1025px) and (min-width: 1200px) {
   .nav .dropdown .dropdown-menu {
-    width: 478px;
+    width: 987px;
   }
 }
 @media (min-width: 1025px) and (min-width: 1770px) {
@@ -27689,4 +27695,15 @@ a.promo-design2:hover .btn.btn-underline:after{
     margin: 0 auto;
     border-radius: 100px;
     margin-top: 1rem;
+}
+@media screen and (min-width:1500px){
+  .nav .dropdown .dropdown-menu {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width:1824px){
+  .nav .dropdown .dropdown-menu {
+    width: 1200px;
+  }
 }
