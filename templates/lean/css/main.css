@@ -179,7 +179,7 @@ margin-bottom: 8rem;
 
 .licolor{color:#2FB4F5;}
 
-.backgroundlist{background-color:#2FB4F5; }
+.backgroundlist{background-color:#2FB4F5;color:#2FB4F5;}
 
 @media screen and (min-width:1500px){
   .margend{
@@ -195,7 +195,7 @@ margin-bottom: 8rem;
     margin-left: 38rem;
   }
   .imgu {
-    margin-left: 6rem;
+    margin-left: -4rem;
   }
   .imgcarousel{
     width: 100%;
@@ -226,9 +226,7 @@ margin-bottom: 8rem;
     height: 284px;
   }
 
-  .imgu {
-    margin-left: 0rem;
-  }
+
 
   .margindiesioch {
     margin-left: 17rem;
@@ -263,5 +261,8 @@ margin-bottom: 8rem;
   }
   .anchovideo {
     width: 670px;
+  }
+  .imgu {
+    margin-left: 11rem;
   }
 }
