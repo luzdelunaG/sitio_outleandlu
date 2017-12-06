@@ -25,7 +25,7 @@
     <div class="col-md-6 txtu">20% de descuento en Spantrack flujo Rack Cupon: <b>20SPAN</b></div>
     <div class="col-md-1 fondou"><a href="" class="txtd">0 <i class="fa fa-shopping-basket" aria-hidden="true"></i></a></div>
     <div class="col-md-5">
-      <div class="col-md-4 margenu margend"><a href="" class="txtt"><i class="fa fa-user" aria-hidden="true"></i> Iniciar sesión</a></div>
+      <div class="col-md-4 margenu margend widthenu"><a href="" class="txtt"><i class="fa fa-user" aria-hidden="true"></i> Iniciar sesión</a></div>
       <div class="col-md-3 margenu margend"><a href="" class="txtcu"><i class="fa fa-comment" aria-hidden="true"></i> Online</a></div>
       <div class="col-md-5 change-lang margenu">
         <a href="en" class="es-en">
@@ -47,71 +47,61 @@
     </div>
   </div>
   <div class="container-fluid backgroundheadt">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-10 col-md-12 col-lg-12 col-xl-12">
-          <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#"></a>
-              </div>
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home |</a></li>
-                <li class=""><a href="#">Acerca de Nosotros |</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>Nuestras Soluciones |</a>
-                  <div class="dropdown-menu">
-                    <div class="col-md-3">
-                        <ul class="list-nav">
-                          <li class="licolor">> <a href="#" class="list-nav-txt"><b>Mobiliario Lean</b></a></li>
-                          <li class="licolor">> <a href="#" class="list-nav-txt">Controles Visuales</a></li>
-                          <li class="licolor">> <a href="#" class="list-nav-txt">Materiales para Entretenimiento Lean</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 padding">
-                        <ul class="list-nav">
-                          <li><a href="#" class="list-nav-txt"><b>Estaciones de trabajo</b></a></li>
-                          <li><a href="#" class="list-nav-txt">Moving carts</a></li>
-                          <li><a href="#" class="list-nav-txt">Racks de materiales</a></li>
-                          <li><a href="#" class="list-nav-txt">Flow-racks</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 padding">
-                        <ul class="list-nav">
-                          <li><a href="#" class="list-nav-txt"><b>Estructuras tubulares</b></a></li>
-                          <li><a href="#" class="list-nav-txt">Estaciones de trabajo ergonómicas diseñadas a la medida (custum)</a></li>
-                          <li><a href="#" class="list-nav-txt">Mesas de trabajo estándar (prediseñadas)</a></li>
-                        </ul>
-                    </div>
-										<div class="col-md-3">
-											<a href="#"><img src="fileimages/productos/m2.png" alt=""></a>
-										</div>
-                    <div class="col-md-12 backgroundlist">.</div>
-                  </div>
-                  <!--<ul class="dropdown-menu">
-                    <li><a href="#">Mobiliario Lean</a></li>
-                    <li><a href="#">Controles Visuales</a></li>
-                    <li><a href="#">Materiales para Entretenimiento Lean</a></li>
-                  </ul>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Mobiliario Lean</a></li>
-                    <li><a href="#">Controles Visuales</a></li>
-                    <li><a href="#">Materiales para Entretenimiento Lean</a></li>
-                  </ul>-->
-                </li>
-                <li><a href="#">Blog |</a></li>
-                <li><a href="#">Contacto |</a></li>
-                <li class="redesh margincu"><a href=""  target="_blank"><i  class="fa fa-facebook txtse" aria-hidden="true"></i></a></li>
-                <li class="redesh"><a href=""  target="_blank"><i class="fa fa-twitter txtse" aria-hidden="true"></i></a></li>
-                <li class="redesh"><a href=""  target="_blank"><i class="fa fa-linkedin-square txtse" aria-hidden="true"></i></a></li>
-                <li class="redesh"><a href=""  target="_blank"><i class="fa fa-youtube txtse" aria-hidden="true"></i></a></li>
-              </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-md-12 col-lg-12 col-xl-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"></a>
             </div>
-          </nav>
-        </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home |</a></li>
+              <li class=""><a href="#">Acerca de Nosotros |</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>Nuestras Soluciones |</a>
+                <div class="dropdown-menu">
+                  <div class="col-md-3">
+                      <ul class="list-nav">
+                        <li class="licolor">> <a href="#" class="list-nav-txt"><b>Mobiliario Lean</b></a></li>
+                        <li class="licolor">> <a href="#" class="list-nav-txt">Controles Visuales</a></li>
+                        <li class="licolor">> <a href="#" class="list-nav-txt">Materiales para Entretenimiento Lean</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 padding">
+                      <ul class="list-nav">
+                        <li><a href="#" class="list-nav-txt"><b>Estaciones de trabajo</b></a></li>
+                        <li><a href="#" class="list-nav-txt">Moving carts</a></li>
+                        <li><a href="#" class="list-nav-txt">Racks de materiales</a></li>
+                        <li><a href="#" class="list-nav-txt">Flow-racks</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 padding">
+                      <ul class="list-nav">
+                        <li><a href="#" class="list-nav-txt"><b>Estructuras tubulares</b></a></li>
+                        <li><a href="#" class="list-nav-txt">Estaciones de trabajo ergonómicas diseñadas a la medida (custum)</a></li>
+                        <li><a href="#" class="list-nav-txt">Mesas de trabajo estándar (prediseñadas)</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#"><img src="fileimages/productos/m2.png" alt=""></a>
+                  </div>
+                  <div class="col-md-12 backgroundlist">.</div>
+                </div>
+              </li>
+              <li><a href="#">Blog |</a></li>
+              <li><a href="#">Contacto |</a></li>
+              <li class="redesh margincu"><a href=""  target="_blank"><i  class="fa fa-facebook txtse" aria-hidden="true"></i></a></li>
+              <li class="redesh"><a href=""  target="_blank"><i class="fa fa-twitter txtse" aria-hidden="true"></i></a></li>
+              <li class="redesh"><a href=""  target="_blank"><i class="fa fa-linkedin-square txtse" aria-hidden="true"></i></a></li>
+              <li class="redesh"><a href=""  target="_blank"><i class="fa fa-youtube txtse" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
+</div>
 </header>
 <div class="cuerpo">
   {{body}}
@@ -120,19 +110,19 @@
   <div class="container-fluid padding">
     <div class="col-md-12 padding">
       <div class="col-md-6 backgroundbluedos padding">
-        <div class="col-md-7 col-md-offset-3 paddingcuatro">
+        <div class="col-md-7 col-md-offset-3 paddingcuatro marginfooter">
           <p class="txtveintu">
           Paseo de los Héroes 10289, Int. 7002,
           Zona Urbana Río Tijuana, Tijuana, B.C.,
           México C.P. 22010
           </p>
         </div>
-        <div class="col-md-7 col-md-offset-3 paddingcinco">
+        <div class="col-md-7 col-md-offset-3 paddingcinco marginfooter">
           <p class="txtveintdos">
             Tel. +52 (664) 976 8347
           </p>
         </div>
-        <div class="col-md-7 col-md-offset-3 paddingcinco marginqui">
+        <div class="col-md-7 col-md-offset-3 paddingcinco marginqui marginfooter">
           <a href=""><button type="" class="btncont">Contáctenos</button></a>
         </div>
       </div>
@@ -156,7 +146,7 @@
       </div>
       <div class="col-md-12">
         <div class="col-md-12 padding">
-          <div class="col-md-2 col-md-offset-1 paddingcinco padding">
+          <div class="col-md-2 col-md-offset-2 paddingcinco padding">
             <p class="txtveintcuat"><a href="" class="letracolor">Acerca de Nosotros</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">¿Quiénes somos?</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">Nuestro Objetivo</a></p>
@@ -171,14 +161,14 @@
             <p class="txtveintsiet"><a href="" class="letracolor3">Racks de materiales</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor3">Flow-racks</a></p>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 marginmefooter">
             <p class="txtveintseis"><a href="" class="letracolor4">.</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor2">Controles Visuales</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor3">Pizarrones</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor3">Tableros de métricos</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor3">Identificadores de área</a></p>
           </div>
-          <div class="col-md-2 padding">
+          <div class="col-md-2 padding marginmefooter">
             <p class="txtveintseis"><a href="" class="letracolor4">.</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor2">Materiales para Entrenamiento Lean</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor3">5s</a></p>
@@ -187,8 +177,8 @@
             <p class="txtveintsiet"><a href="" class="letracolor3">VSM</a></p>
             <p class="txtveintsiet"><a href="" class="letracolor3">Problem Solving</a></p>
           </div>
-          <div class="col-md-3">
-            <p class="txtveintseis"><a href="" class="letracolor">Registrate en nuestro blog</a></p>
+          <div class="col-md-3 marginformfoo">
+            <p class="txtveintseis letracolor">Registrate en nuestro blog</p>
             <form>
               <div class="col-md-12 padding">
               <input type="text" placeholder="Ingresa tu email">

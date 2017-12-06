@@ -22,7 +22,7 @@
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
 }
-
+.titcasos{font-family: OpenSans-Bold;}
 .backgroundhead{background-color:#2FB4DA;height: 3.5rem;padding: 0px;}
 .txtu{text-align: right;color: #fff;font-size: 1.5rem;margin-top: 0.5rem;}
 .fondou{background-color: #7F7F7F;text-align: center;}
@@ -47,7 +47,7 @@
 .redesh{margin-left: 0rem;}
 .margincu{margin-left: 21rem;}
 .txtse{font-size: 3rem !important;}
-.colorear{background-color: rgba(0,0,255, 0.5);}
+.colorear{background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
 /*.imgmargin{margin-left: 6rem;}*/
 .flecha{color: #3CB8F5;text-align: center;margin-left: -4rem;}
 .marginse{margin-top: 15rem;color:#3CB8F5;}
@@ -84,26 +84,26 @@
 .centrardiv{margin-left: auto;margin-right: auto;}
 .backgroundgrayd{background-color: #5D5D5D;color: #fff;font-size: 2.5rem;}
 .padding{padding: 0px !important;}
-.txtnu{font-family: OpenSans-Bold;}
-.txtdi{font-family: OpenSans-Bold;text-align: right;}
-.margindoc{margin-top: 4rem;}
-.margintre{margin-top: 2rem;}
+.txtnu{font-family: OpenSans-Bold;font-size: 45px;}
+.txtdi{font-family: OpenSans-Bold;text-align: right;font-size: 45px;}
+.margindoc{margin-top: 4rem;font-size: 2rem;}
+.margintre{margin-top: 2rem;font-size: 2rem;}
 .flechazul{color: #2FB4F5;}
 .backgroundazul{background-color: #00A5E9;color: #fff;}
 .redcolor{color: #5D5D5D;font-size: 4rem !important;}
 .redcolor:hover{color:#5D5D5D; text-decoration: none;}
 .altoimg{max-height: 52rem;}
-.txtonc{text-align: right;}
+.txtonc{text-align: right;font-size: 2rem;}
 .backgroundblue{background-color: #2FB4F5}
 .backgroundgrayt{background-color: #D2D4D3;}
 .txtdoc{color: #fff;font-family:OpenSans-Bold;font-size: 2.5rem;}
 .paddingdos{padding-top: 2rem;padding-bottom: 2rem; }
-.txttre{color: #fff;}
+.txttre{color: #fff;font-size: 2rem;}
 .txtcat{color: #5D5D5D !important;}
 .txtcat:hover{color: #5D5D5D;text-decoration: none;}
 .paddingtres{padding-top: 2rem;padding-bottom: 1rem; }
 .txtqui{color: #5D5D5D;font-family:OpenSans-Bold;font-size: 2.5rem;}
-.txtdie{color: #2FB4F5;}
+.txtdie{color: #2FB4F5;font-size: 2rem;}
 .txtdies{color: #5D5D5D;font-size: 1.5rem;}
 .txtdiesio{color: #5D5D5D;font-size: 1.5rem;font-family: OpenSans-Bold;}
 .margincat{margin-bottom: 2.1rem;}
@@ -177,16 +177,28 @@ margin-bottom: 8rem;
   text-decoration: none;
 }
 
-.licolor{color:#2FB4F5;}
+.backgroundbanner{
+  background-color: rgba(19, 84, 124, 0.9);
+  background: rgba(19, 84, 124, 0.9);
+  color: #fff;
+  font-family: OpenSans-Bold;
+  padding-top: 7rem;
+  padding-bottom: 6.5rem;
+  font-size: 4rem;
+}
 
+.licolor{color:#2FB4F5;}
 .backgroundlist{background-color:#2FB4F5;color:#2FB4F5;}
+.imgbanner{ background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 100VH;height: 27rem;opacity: 0.8;}
+.marginbanner{margin-left: 4rem;}
+.imgcarousel{background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 120rem !important;opacity: 0.9;height: 35rem;}
 
 @media screen and (min-width:1500px){
-  .margend{
-    margin-right: -9rem;
+  .margend {
+    margin-right: -7rem !important;
   }
   .txtci {
-    margin-left: 1rem;
+    margin-left: 10.2rem;
   }
   .container {
     width: 1200px !important;
@@ -195,7 +207,7 @@ margin-bottom: 8rem;
     margin-left: 38rem;
   }
   .imgu {
-    margin-left: -4rem;
+    margin-left: 0rem;
   }
   .imgcarousel{
     width: 100%;
@@ -205,7 +217,7 @@ margin-bottom: 8rem;
   }
 
   .cuadrosmargen{
-    margin-left: 6rem !important;
+    margin-left: 5.5rem !important;
     margin-bottom: 5rem;
   }
 
@@ -214,7 +226,7 @@ margin-bottom: 8rem;
   }
 
   .margincat {
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.4rem;
   }
 
   .mapatam{
@@ -229,7 +241,7 @@ margin-bottom: 8rem;
 
 
   .margindiesioch {
-    margin-left: 17rem;
+    margin-left: 34rem;
   }
 
   footer input {
@@ -237,8 +249,8 @@ margin-bottom: 8rem;
   }
 
   .anchonoti{
-    width: 95% !important;
-    margin-left: 5rem !important;
+    width: 100% !important;
+    margin-left: 0rem !important;
   }
 
   .enviar {
@@ -246,23 +258,108 @@ margin-bottom: 8rem;
   }
 
   .margindiesi {
-    margin-left: 21rem !important;
+    margin-left: 14rem !important;
   }
 
   .nav .dropdown .dropdown-menu {
     width: 700px;
   }
-}
 
+  .fondou{width: 5% !important;}
+
+  .widthenu{
+    width: 20rem !important;;
+  }
+
+   .colorear{width: 45rem !important;font-size: 2.2rem;padding-top: 7rem;padding-bottom: 7rem; }
+   .carousel-indicators {left: 16% !important;}
+   .colorear2 {
+    width: 45rem !important;
+    font-size: 2.2rem;
+    padding-top: 8.9rem;
+    padding-bottom: 8.9rem;
+    background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+    .marginformfoo{
+    margin-left: -5rem;}
+}
 
 @media screen and (min-width:1824px){
   .enviar {
     margin-left: -10.5rem;
   }
   .anchovideo {
-    width: 670px;
+    width: 540px;
   }
   .imgu {
     margin-left: 11rem;
   }
+  .margincu {
+    margin-left: 43rem;
+  }
+  .txtci {
+    margin-left: 5.2rem !important;
+  }
+  .fondou{width: 4% !important;}
+
+  .margend {
+    margin-right: -10.5rem !important;
+  }
+
+  .widthenu{
+    width: 23rem !important;
+  }
+
+  .colorear{width: 45rem !important; padding-top: 6.6rem;font-size: 2.2rem;padding-bottom: 6.6rem; }
+
+  .carousel-indicators {
+    left: 17% !important;
+  }
+
+   .colorear2 {
+    width: 45rem !important;
+    font-size: 2.2rem;
+    padding-top: 8.9rem;
+    padding-bottom: 8.9rem;
+    background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+
+  .anchocuadro{
+    width: 33rem !important;
+    height: 31rem;
+  }
+  .marginoch {
+    margin-left: 10.5rem !important;
+  }
+
+  #image {
+    height: 29rem;
+  }
+
+  #image2 {
+    height: 29rem;
+  }
+
+  #image3 {
+    height: 29rem;
+  }
+
+  .marginsie {
+    margin-left: 28rem !important;
+  }
+
+  .altoimg {
+    max-height: 59rem;
+  }
+
+  .txtsei {
+    margin-top: -16rem;
+  }
+
+  .carousel-indicators2 {
+  margin-left: 2% !important;
+  }
+
+  .marginfooter{margin-left: 33.5rem !important;}
+
+  .marginmefooter{margin-left: -10rem;}
+  .marginformfoo{margin-left: -5rem;}
 }
