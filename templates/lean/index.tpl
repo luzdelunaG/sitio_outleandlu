@@ -22,12 +22,12 @@
 <body>
 <header>
   <div class="container-fluid backgroundhead">
-    <div class="col-md-6 txtu">20% de descuento en Spantrack flujo Rack Cupon: <b>20SPAN</b></div>
+    <div class="col-md-6 txtu marginbarraazul">20% de descuento en Spantrack flujo Rack Cupon: <b>20SPAN</b></div>
     <div class="col-md-1 fondou"><a href="" class="txtd">0 <i class="fa fa-shopping-basket" aria-hidden="true"></i></a></div>
-    <div class="col-md-5">
+    <div class="col-md-5 widhtazul">
       <div class="col-md-4 margenu margend widthenu"><a href="" class="txtt"><i class="fa fa-user" aria-hidden="true"></i> Iniciar sesión</a></div>
       <div class="col-md-3 margenu margend"><a href="" class="txtcu"><i class="fa fa-comment" aria-hidden="true"></i> Online</a></div>
-      <div class="col-md-5 change-lang margenu">
+      <div class="col-md-5 col-lg-4 change-lang margenu">
         <a href="en" class="es-en">
           ENGLISH SITE
           <img src="https://grupoconsultorefe.com/assets/public/img/usa.png" alt="Español">
@@ -146,7 +146,7 @@
       </div>
       <div class="col-md-12">
         <div class="col-md-12 padding">
-          <div class="col-md-2 col-md-offset-2 paddingcinco padding">
+          <div class="col-md-2 col-md-offset-2 paddingcinco padding marginmenfo">
             <p class="txtveintcuat"><a href="" class="letracolor">Acerca de Nosotros</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">¿Quiénes somos?</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">Nuestro Objetivo</a></p>

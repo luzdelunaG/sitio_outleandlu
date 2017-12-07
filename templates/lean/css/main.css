@@ -47,25 +47,25 @@
 .redesh{margin-left: 0rem;}
 .margincu{margin-left: 21rem;}
 .txtse{font-size: 3rem !important;}
-.colorear{background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+.colorear{background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;padding-top: 5rem;padding-bottom: 5rem;}
 /*.imgmargin{margin-left: 6rem;}*/
 .flecha{color: #3CB8F5;text-align: center;margin-left: -4rem;}
 .marginse{margin-top: 15rem;color:#3CB8F5;}
 .sincir{list-style:none;}
-.marginsie{margin-left: 16rem !important;}
+.marginsie{margin-left: 19rem !important;}
 
 .backgroundgray{background-color: #5D5D5D;color: #5D5D5D;height: 27rem; padding: 0px !important;}
 #image{
   background-image:url(http://interlake.com.mx/blog/wp-content/uploads/2016/06/racks-para-almacenes-fuera-2.jpg);
   max-width: 100VH;
-  height: 25rem;
+  height: 29rem;
   padding: 0px;
   opacity: 0.2;
 }
 #image2{
   background-image:url(http://www.cardumen467.com/wp-content/uploads/2015/12/pizarron-chemours1.jpg);
   max-width: 100VH;
-  height: 25rem;
+  height: 29rem;
   padding: 0px;
   opacity: 0.2;
 }
@@ -73,14 +73,14 @@
 #image3{
   background-image:url(https://cdn.arstechnica.net/wp-content/uploads/2017/04/AboutUs_Partners_OEM_012916-800x533.jpg);
   max-width: 100VH;
-  height: 25rem;
+  height: 29rem;
   padding: 0px;
   opacity: 0.2;
 }
 .imgblue{background-color: rgba(15,163,223,.7);color: #fff;}
-.txtsei{margin-top: -14rem;font-size: 3rem;color: #fff;margin-left: 3rem;font-family: OpenSans-Bold;z-index: 0;}
+.txtsei{margin-top: -16rem;font-size: 3rem;color: #fff;margin-left: 3rem;font-family: OpenSans-Bold;z-index: 0;}
 .txtsei:hover{transition-duration: .5s;margin-top: -20rem;}
-.marginoch{margin-left: 1rem !important;}
+.marginoch{margin-left: 3rem !important;}
 .centrardiv{margin-left: auto;margin-right: auto;}
 .backgroundgrayd{background-color: #5D5D5D;color: #fff;font-size: 2.5rem;}
 .padding{padding: 0px !important;}
@@ -92,7 +92,7 @@
 .backgroundazul{background-color: #00A5E9;color: #fff;}
 .redcolor{color: #5D5D5D;font-size: 4rem !important;}
 .redcolor:hover{color:#5D5D5D; text-decoration: none;}
-.altoimg{max-height: 52rem;}
+.altoimg{height: 69rem;}
 .txtonc{text-align: right;font-size: 2rem;}
 .backgroundblue{background-color: #2FB4F5}
 .backgroundgrayt{background-color: #D2D4D3;}
@@ -151,7 +151,7 @@ color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-
 }
 
 .anchovideo{
-  width:480px; height:200px;
+  width:430px; height:200px;
 }
 
 .mapatam{
@@ -192,10 +192,29 @@ margin-bottom: 8rem;
 .imgbanner{ background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 100VH;height: 27rem;opacity: 0.8;}
 .marginbanner{margin-left: 4rem;}
 .imgcarousel{background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 120rem !important;opacity: 0.9;height: 35rem;}
+.colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8.9rem;padding-bottom: 8.9rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+.anchocuadro{width: 31rem !important;height: 31rem;}
+
+@media screen and (min-width:1200px){
+  .txttre {
+    margin-top: 1.5rem;
+    margin-bottom: 1.9rem;
+  }
+  .marginver{margin-top: 5.6rem;}
+
+  .artwidth{width: 18rem;
+margin-left: 1rem;}
+
+ .marginmefooter{margin-left: -2rem;}
+ .marginmenfo{margin-left: 12rem !important;}
+ .margindiesi {
+    margin-left: 16rem !important;
+  }
+}
 
 @media screen and (min-width:1500px){
   .margend {
-    margin-right: -7rem !important;
+    margin-right: -5rem !important;
   }
   .txtci {
     margin-left: 10.2rem;
@@ -207,7 +226,7 @@ margin-bottom: 8rem;
     margin-left: 38rem;
   }
   .imgu {
-    margin-left: 0rem;
+    margin-left: -4.2rem;
   }
   .imgcarousel{
     width: 100%;
@@ -217,12 +236,12 @@ margin-bottom: 8rem;
   }
 
   .cuadrosmargen{
-    margin-left: 5.5rem !important;
+    margin-left: -1.5rem !important;
     margin-bottom: 5rem;
   }
 
   .anchovideo {
-    width: 628px;
+    width: 539px;
   }
 
   .margincat {
@@ -230,18 +249,18 @@ margin-bottom: 8rem;
   }
 
   .mapatam{
-    width:800px;height:318px;
+    width:800px;height:318px !important;
   }
 
   .mapatam {
     width: 1000px;
-    height: 284px;
+    height: 319px;
   }
 
 
 
   .margindiesioch {
-    margin-left: 34rem;
+    margin-left: 13rem !important
   }
 
   footer input {
@@ -254,11 +273,11 @@ margin-bottom: 8rem;
   }
 
   .enviar {
-    margin-left: -8.5rem;
+    margin-left: -2.5rem;
   }
 
   .margindiesi {
-    margin-left: 14rem !important;
+    margin-left: 19rem !important;
   }
 
   .nav .dropdown .dropdown-menu {
@@ -268,31 +287,37 @@ margin-bottom: 8rem;
   .fondou{width: 5% !important;}
 
   .widthenu{
-    width: 20rem !important;;
+    width: 19rem !important;;
   }
 
    .colorear{width: 45rem !important;font-size: 2.2rem;padding-top: 7rem;padding-bottom: 7rem; }
    .carousel-indicators {left: 16% !important;}
-   .colorear2 {
-    width: 45rem !important;
-    font-size: 2.2rem;
-    padding-top: 8.9rem;
-    padding-bottom: 8.9rem;
-    background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
-    .marginformfoo{
-    margin-left: -5rem;}
+   .colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8.9rem;padding-bottom: 8.9rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+   .marginformfoo{margin-left: -5rem;}
+   .anchocuadro{width: 33rem !important;height: 31rem;}
+  #image {height: 28rem;}
+  #image2 {height: 28rem;}
+  #image3 {height: 28rem;}
+  .marginoch {margin-left: 10rem !important;}
+  .carousel-indicators2 {margin-left: 4% !important;}
+  .altoimg {max-height: 58rem;}
+  .marginfooter{margin-left: 13.5rem !important;}
+  .marginmenfo{margin-left: 10rem !important;}
+  .marginmefooter{margin-left: 0rem;}
+  .marginformfoo {margin-left: 2rem;}
+  .marginbarraazul{margin-left: 4rem;}
 }
 
 @media screen and (min-width:1824px){
-  .enviar {
-    margin-left: -10.5rem;
-  }
+   .margindiesioch {margin-left: 33rem !important;}
+
+  .enviar {margin-left: -11.5rem;}
+
   .anchovideo {
     width: 540px;
   }
-  .imgu {
-    margin-left: 11rem;
-  }
+  .imgu { margin-left: 13rem;}
+
   .margincu {
     margin-left: 43rem;
   }
@@ -302,7 +327,7 @@ margin-bottom: 8rem;
   .fondou{width: 4% !important;}
 
   .margend {
-    margin-right: -10.5rem !important;
+    margin-right: -9rem !important;
   }
 
   .widthenu{
@@ -358,8 +383,14 @@ margin-bottom: 8rem;
   margin-left: 2% !important;
   }
 
-  .marginfooter{margin-left: 33.5rem !important;}
-
+  .marginfooter {margin-left: 33.5rem !important;}
   .marginmefooter{margin-left: -10rem;}
-  .marginformfoo{margin-left: -5rem;}
+  .marginformfoo {margin-left: -5rem;}
+  .marginmenfo {margin-left: 30rem !important;}
+  .cuadrosmargen {margin-left: 9rem !important;margin-bottom: 5rem;}
+  .mapatam {width: 1000px;height: 285px !important;}
+  .margindiesi {margin-left: 8rem !important;}
+  .marginbarraazul{margin-left: 13rem;}
+  .widhtazul{width: 39% !important;}
+  .marginmenfo{margin-left: 10rem !important;}
 }
