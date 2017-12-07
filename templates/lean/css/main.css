@@ -306,17 +306,23 @@ margin-left: 1rem;}
   .marginmefooter{margin-left: 0rem;}
   .marginformfoo {margin-left: 2rem;}
   .marginbarraazul{margin-left: 4rem;}
+  .txttre {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+    .marginver{margin-top: 0rem;}
+
 }
 
 @media screen and (min-width:1824px){
    .margindiesioch {margin-left: 33rem !important;}
 
-  .enviar {margin-left: -11.5rem;}
+  .enviar {margin-left: -9.7rem;}
 
   .anchovideo {
     width: 540px;
   }
-  .imgu { margin-left: 13rem;}
+  .imgu { margin-left: 11rem;}
 
   .margincu {
     margin-left: 43rem;
@@ -327,11 +333,11 @@ margin-left: 1rem;}
   .fondou{width: 4% !important;}
 
   .margend {
-    margin-right: -9rem !important;
+    margin-right: -8rem !important;
   }
 
   .widthenu{
-    width: 23rem !important;
+    width: 22rem !important;
   }
 
   .colorear{width: 45rem !important; padding-top: 6.6rem;font-size: 2.2rem;padding-bottom: 6.6rem; }
@@ -387,10 +393,16 @@ margin-left: 1rem;}
   .marginmefooter{margin-left: -10rem;}
   .marginformfoo {margin-left: -5rem;}
   .marginmenfo {margin-left: 30rem !important;}
-  .cuadrosmargen {margin-left: 9rem !important;margin-bottom: 5rem;}
+  .cuadrosmargen {margin-left: 6rem !important;margin-bottom: 5rem;}
   .mapatam {width: 1000px;height: 285px !important;}
   .margindiesi {margin-left: 8rem !important;}
   .marginbarraazul{margin-left: 13rem;}
   .widhtazul{width: 39% !important;}
-  .marginmenfo{margin-left: 10rem !important;}
+  
+   .txttre {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+    .marginver{margin-top: 0rem;}
+
 }
