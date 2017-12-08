@@ -12,7 +12,7 @@
 </head>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 {{Javascript.Js(["jquery","jquery-ui","jquery.filer","jquery.filer.min","custom","component","bootstrap.min","bootstrap-table","bootstrap-table-es", "bootstrap-dialog.min","bootstrap-arrastrar","tinymce/tinymce.min","select2","localstore","funciones","jform","validator","init","jquerycookie","jquery.waypoints", "progressbar.min"])}}
-<!--<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
 
 <!--<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES</script>
@@ -57,7 +57,7 @@
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home |</a></li>
-              <li class=""><a href="#">Acerca de Nosotros |</a></li>
+              <li class=""><a href="nosotros">Acerca de Nosotros |</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>Nuestras Soluciones |</a>
                 <div class="dropdown-menu">
@@ -147,7 +147,7 @@
       <div class="col-md-12">
         <div class="col-md-12 padding">
           <div class="col-md-2 col-md-offset-2 paddingcinco padding marginmenfo">
-            <p class="txtveintcuat"><a href="" class="letracolor">Acerca de Nosotros</a></p>
+            <p class="txtveintcuat"><a href="nosotros" class="letracolor">Acerca de Nosotros</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">¿Quiénes somos?</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">Nuestro Objetivo</a></p>
             <p class="txtveintcinc"><a href="" class="letracolor2">El compromiso de Lean Outlet™</a></p>
@@ -181,10 +181,10 @@
             <p class="txtveintseis letracolor">Registrate en nuestro blog</p>
             <form>
               <div class="col-md-12 padding">
-              <input type="text" placeholder="Ingresa tu email">
+                <input type="text" placeholder="Ingresa tu email">
               </div>
               <div class="col-md-9 enviar">
-              <input type="submit" value="Enviar" class="enviar1">
+                <input type="submit" value="Enviar" class="enviar1">
               </div>
             </form>
           </div>
