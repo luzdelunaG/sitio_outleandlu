@@ -182,9 +182,10 @@ margin-bottom: 8rem;
   background: rgba(9,57,89, 0.8);
   color: #fff;
   font-family: OpenSans-Bold;
-  padding-top: 7rem;
-  padding-bottom: 6.5rem;
+ padding-top: 6.7rem;
+padding-bottom: 6.8rem;
   font-size: 4rem;
+  width: 36rem !important;
 }
 
 .licolor{color:#2FB4F5;}
@@ -240,6 +241,13 @@ margin-left: 1rem;}
  .margindiesi {
     margin-left: 16rem !important;
   }
+ .margmuu{width: 31rem !important;}
+ .margmud{width: 30rem !important;}
+ .margmut{width: 30rem !important;}
+ .margnuobjS{margin-left: 6rem;}
+ .paddmuc {width: 48rem !important;height: 100VH !important;}
+ .txtopcing {padding: 6rem 20rem 26rem 22rem;}
+ ..margmud{margin-left: 1rem;margin-right: 1rem;}
 }
 
 @media screen and (min-width:1500px){
@@ -435,6 +443,11 @@ margin-left: 1rem;}
   }
     .marginver{margin-top: 0rem;}
   .margmut{margin-left: 2rem;}
-  .margmud{margin-left: 1rem;}
+  .margmud{margin-left: 0.5rem;}
   .margincat{margin-bottom: 0.6rem;}
+  .margmuu {width: 37rem !important;}
+  .margmud{width: 37rem !important;}
+  .margmut{width: 37rem !important;}
+  .paddmuc {width: 58.6rem !important;max-height: 57VH !important;}
+  .txtopcing {padding: 9rem 20rem 26rem 22rem;}
 }
