@@ -1,0 +1,146 @@
+<div class="row clearfix">
+	{{ Form.create("guardar/"~id,"frmNosotros") }}
+    <label class="col-md-12">Home</label>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_seo",{"label":{"text":"Título SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("description_seo",{"label":{"text":"Descripción SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("keywords_seo",{"label":{"text":"Palabras Clave SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list">
+                <img id="imgFoto" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("img",{"label":{"text":"Imagen de Portada", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_nos",{"label":{"text":"Título Principal:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("sub_nos",{"label":{"text":"Subtítulo:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtu_nos",{"label":{"text":"Texto de Nosotros:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("urlv",{"label":{"text":"URL video empresarial:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtd_nos",{"label":{"text":"Texto de Nosotros:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list1">
+                <img id="imgFoto1" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("imgcu",{"label":{"text":"Imagen ilustrativa uno:", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+     <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list2">
+                <img id="imgFoto2" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("imgcd",{"label":{"text":"Imagen ilustrativa dos:", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+     <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list3">
+                <img id="imgFoto3" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("imgct",{"label":{"text":"Imagen ilustrativa tres:", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_nue",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtu_nue",{"label":{"text":"Texto de Nuestro Objetivo:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtd_nue",{"label":{"text":"Texto de Nuestro Objetivo:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtt_nue",{"label":{"text":"Texto de Nuestro Objetivo:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_comp",{"label":{"text":"Título de Compromiso:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtu_comp",{"label":{"text":"Texto de Compromiso:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtd_comp",{"label":{"text":"Texto de Compromiso:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtt_comp",{"label":{"text":"Texto de Compromiso:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("tit_opc",{"label":{"text":"Título de Opción:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("frase_opc",{"label":{"text":"Frase:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtu_opc",{"label":{"text":"Texto de Opción:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("frasd_opc",{"label":{"text":"Frase:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtd_opc",{"label":{"text":"Texto de Opción:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+    	{{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+		{{Html.Link("nosotros","Cancelar",{"class":"btn btn-agregar"})}}
+		{{ Form.End() }}
+	</div>
+</div>

@@ -1,0 +1,30 @@
+<div class="div-t table-responsive">
+{{ Html.Link('videos/nuevo/', "Agregar Videos",{"class":"btn btn-primary btn-sm btn-agregar"})}}
+<table class="table-striped" data-class="table table-bordered table-hover table-striped"
+       data-toggle="table"
+       data-url="{{ Html.Link('api/videos/getdatos','',{'action':true}) }}"
+       data-pagination="true"
+       data-query-params="queryParams"
+       data-side-pagination="server"
+       data-page-list="[15, 30, 50, 100, 200]"
+       data-search="true"
+       data-show-toggle="true"
+       data-show-columns="true"
+       data-sort-name="orden"
+       data-sort-order="asc"
+       data-page-size="15"
+       data-pagination-first-text=false
+       data-pagination-pre-text=false
+       data-pagination-next-text=false
+       data-pagination-last-text=false
+       id="videos_table"
+       >
+    <thead>
+         <tr>
+            <th  class="col-sm-1" data-sortable="true" data-field="id_videos"><div class="titulo-th">ID</div></th>
+            <th  class="col-sm-10" data-sortable="true" data-field="titulo"><div class="titulo-th">Título</div></th>
+            <th class="col-sm-1 ajuste-xol-1" data-field="action" data-formatter="actionFormatter" data-events="actionEvents"><div class="titulo-th">Acciones</div></th>
+        </tr>
+    </thead>
+</table>
+</div>

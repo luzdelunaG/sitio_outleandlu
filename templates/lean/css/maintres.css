@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(../fonts/Roboto-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url(../fonts/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+  src: url(../fonts/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+}
+
+.backgroundhead{background-color:#2FB4DA;height: 3.5rem;padding: 0px;}
+.txtu{text-align: right;color: #fff;font-size: 1.5rem;margin-top: 0.5rem;}
+.fondou{background-color: #7F7F7F;text-align: center;}
+.txtd{color: #F5F5F5;font-size: 2.1rem;}
+.txtd:hover{color: #F5F5F5;text-decoration: none;}
+.margenu{margin-top: 0.5rem;padding: 0px;}
+.txtt{color: #fff;}
+.txtt:hover{color: #fff;text-decoration: none;}
+.txtcu{color: #fff;padding: 0px;}
+.txtcu:hover{color: #fff;text-decoration: none;}
+.es-en{color: #fff;font-size: 1.5rem;}
+.es-en:hover{color: #fff;text-decoration: none;}
+.margend{margin-right: -4rem;}
+.backgroundheadd{background-color:#FFFFFF;height: 10rem;}
+.imgu{width: 24rem;padding-top: 2rem;}
+.txtci{color: #808080;font-size: 2rem; font-family: OpenSans-Bold;margin-left: 3.5rem;}
+.txtci:hover{color: #808080;text-decoration: none;}
+.margent{margin-top: 3.5rem;}
+.backgroundheadt{background-color: #fff;height: 5rem;}
+.nav > li > a{font-size: 18px;}
+.navbar-inverse .navbar-nav > li > a {background-color: transparent !important;color: #fff;}
+.redesh{margin-left: 0rem;}
+.margincu{margin-left: 21rem;}
+.txtse{font-size: 3rem !important;}
+.colorear{background-color: rgba(0,0,255, 0.5);}
+/*.imgmargin{margin-left: 6rem;}*/
+.flecha{color: #3CB8F5;text-align: center;margin-left: -4rem;}
+.marginse{margin-top: 15rem;color:#3CB8F5;}
+.sincir{list-style:none;}
+.marginsie{margin-left: 16rem !important;}
+
+.backgroundgray{background-color: #5D5D5D;color: #5D5D5D;height: 27rem; padding: 0px !important;}
+#image{
+  background-image:url(http://interlake.com.mx/blog/wp-content/uploads/2016/06/racks-para-almacenes-fuera-2.jpg);
+  width: 34.5rem;
+  height: 25rem;
+  padding: 0px;
+  opacity: 0.2;
+}
+#image2{
+  background-image:url(http://www.cardumen467.com/wp-content/uploads/2015/12/pizarron-chemours1.jpg);
+  width: 34.5rem;
+  height: 25rem;
+  padding: 0px;
+  opacity: 0.2;
+}
+
+#image3{
+  background-image:url(https://cdn.arstechnica.net/wp-content/uploads/2017/04/AboutUs_Partners_OEM_012916-800x533.jpg);
+  width: 34.5rem;
+  height: 25rem;
+  padding: 0px;
+  opacity: 0.2;
+}
+.imgblue{background-color: rgba(15,163,223,.7);color: #fff;}
+.txtsei{margin-top: -14rem;font-size: 3rem;color: #fff;margin-left: 3rem;font-family: OpenSans-Bold;z-index: 0;}
+.txtsei:hover{transition-duration: .5s;margin-top: -20rem;}
+.marginoch{margin-left: 1rem !important;}
+.centrardiv{margin-left: auto;margin-right: auto;}
+.backgroundgrayd{background-color: #5D5D5D;color: #fff;font-size: 2.5rem;}
+.padding{padding: 0px !important;}
+.txtnu{font-family: OpenSans-Bold;}
+.txtdi{font-family: OpenSans-Bold;text-align: right;}
+.margindoc{margin-top: 4rem;}
+.margintre{margin-top: 2rem;}
+.flechazul{color: #2FB4F5;}
+.backgroundazul{background-color: #00A5E9;color: #fff;}
+.redcolor{color: #5D5D5D;font-size: 4rem !important;}
+.redcolor:hover{color:#5D5D5D; text-decoration: none;}
+.altoimg{max-height: 52rem;}
+.txtonc{text-align: right;}
+.backgroundblue{background-color: #2FB4F5}
+.backgroundgrayt{background-color: #D2D4D3;}
+.txtdoc{color: #fff;font-family:OpenSans-Bold;font-size: 2.5rem;}
+.paddingdos{padding-top: 2rem;padding-bottom: 2rem; }
+.txttre{color: #fff;}
+.txtcat{color: #5D5D5D !important;}
+.txtcat:hover{color: #5D5D5D;text-decoration: none;}
+.paddingtres{padding-top: 2rem;padding-bottom: 1rem; }
+.txtqui{color: #5D5D5D;font-family:OpenSans-Bold;font-size: 2.5rem;}
+.txtdie{color: #2FB4F5;}
+.txtdies{color: #5D5D5D;font-size: 1.5rem;}
+.txtdiesio{color: #5D5D5D;font-size: 1.5rem;font-family: OpenSans-Bold;}
+.margincat{margin-bottom: 2.1rem;}
+.txtdiesnu{color: #2FB4F5;font-family: OpenSans-Bold;text-align: center;}
+.txtveint{text-align: center;font-family: OpenSans-Italic;}
+.border{border-style: solid;border-color:#2FB4F5;}
+.backgroundbluedos{background-color: #2FB4F5;}
+.txtveintu{font-size: 2rem;color: #fff;}
+.paddingcuatro{padding-top: 3rem;padding-bottom: 0rem;}
+.txtveintdos{font-size: 2.5rem;font-family: OpenSans-Bold;color: #fff;}
+.paddingcinco{padding-bottom: 1rem;}
+.btncont{background-color: #2FB4F5;color: #fff;font-family: OpenSans-Bold;border-style: solid;border-width: 2px;padding: 1rem 3rem 1rem;border-color: #fff;
+font-size: 2rem;}
+.marginqui{margin-bottom: 4rem;}
+.backgroundblank{background-color: #fff;}
+.txtveinttres{color: #5D5D5D;font-size: 3.5rem !important;margin-left: 1rem;}
+.margindiesi{text-align: right;padding-top: 3rem;}
+.txtveintcuat{text-align: left;font-family:OpenSans-Bold;padding-top: 2rem;padding-left: 4rem;}
+.letracolor{color:#2FB4F5;}
+.letracolor:hover{color: #2FB4F5;text-decoration: none;}
+.txtveintcinc{text-align: left;color: #202020;padding-left: 4rem;margin-bottom: auto;font-size: 1.3rem;}
+.letracolor2{color: #202020;}
+.letracolor2:hover{color: #202020;text-decoration: none;}
+.txtveintseis{text-align: left;font-family:OpenSans-Bold;padding-top: 2rem;}
+.txtveintsiet{text-align: left;color: #202020;margin-bottom: auto;font-size: 1.3rem;}
+.letracolor3 {color: #5D5D5D;margin-left: 1rem;}
+.letracolor3:hover {color: #5D5D5D;text-decoration: none;}
+.letracolor4{color: #fff;}
+.letracolor4:hover{color: #fff;text-decoration: none;}
+.enviar{text-align: right;margin-top: 1.5rem;}
+.enviar1{width: 9rem;
+background-color: #2FB4F5;
+border-radius: 3px;
+color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-top: 0.5rem;padding-bottom: 0.5rem;}
+.backgroundgray4{
+  background-color: #5D5D5D;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+.margindiesioch{
+  margin-left: 13.5rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.anchovideo{
+  width:480px; height:200px;
+}
+
+.mapatam{
+  width:800px;height:318px;
+}
+
+@media screen and (min-width:1500px){
+  .margend{
+    margin-right: -9rem;
+  }
+  .txtci {
+    margin-left: 1rem;
+  }
+  .container {
+    width: 1200px !important;
+  }
+  .margincu {
+    margin-left: 38rem;
+  }
+  .imgu {
+    margin-left: 6rem;
+  }
+  .imgcarousel{
+    width: 100%;
+  }
+  .sincir{
+    width: 100%;
+  }
+  #image{
+    width: 45.9rem;
+  }
+
+  #image{
+    width: 45.9rem;
+  }
+
+  #image2{
+    width: 45.9rem;
+  }
+
+  #image3{
+    width: 45.9rem;
+  }
+
+  .anchovideo {
+    width: 628px;
+  }
+
+  .margincat {
+    margin-bottom: 1.1rem;
+  }
+
+  .mapatam{
+    width:800px;height:318px;
+  }
+
+  .mapatam {
+    width: 1000px;
+    height: 284px;
+  }
+
+  .imgu {
+    margin-left: 0rem;
+  }
+
+  .margindiesioch {
+    margin-left: 17rem;
+  }
+
+  footer input {
+    width: 29.4rem;
+  }
+
+  .anchonoti{
+    width: 95% !important;
+  }
+
+  .enviar {
+    margin-left: -8.5rem;
+  }
+
+  .margindiesi {
+    margin-left: 21rem !important;
+  }
+}
+
+
+.contenedorazul{
+  background-color: rgb(49, 97, 130);
+  height: 189px;
+}
+
+.contacto{
+      width: 102%;
+    height: auto;
+}
+
+.letrasContacto{
+   margin-top: 63px;
+    font-size: 35px;
+    color: white;
+
+}
+
+.redesBlog{
+  display: inline-flex;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.redesh2{
+  margin-left: 9rem;
+}
+
+.txtseBlog{
+font-size: 4rem !important;
+}

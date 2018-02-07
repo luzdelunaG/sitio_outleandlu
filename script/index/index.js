@@ -1,164 +1,64 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
+App.token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOlwvXC9lbm93bG9jYWwuY29tXC8iLCJhdWQiOiJodHRwOlwvXC9lbm93bG9jYWwuY29tXC8iLCJpYXQiOjE0NjQyNjk4NDQsImV4cCI6MTc3NTMwOTg0NCwic3ViIjoidXN1YXJpbyIsImFkbWluIjpmYWxzZX0.Ynx4eXqAWwHGFO1cKLLwScI3VM5Fs2e_OODtzkvGjN_LUzYgTaR-sUSFopGWAMzmOJ0jLn_NtnxU80Q6qwnFRA";
 
-function(d) {
-  var e = a(this);
-  if (!e.is(".disabled, :disabled")) {
-    var f = b(e),
-      g = f.hasClass("open");
-    if (c(), !g) {
-      "ontouchstart" in document.documentElement && !f.closest(".navbar-nav").length && a(document.createElement("div")).addClass("dropdown-backdrop").insertAfter(a(this)).on("click", c);
-      var h = {
-        relatedTarget: this
-      };
-      if (f.trigger(d = a.Event("show.bs.dropdown", h)), d.isDefaultPrevented()) return;
-      e.trigger("focus").attr("aria-expanded", "true"), f.toggleClass("open").trigger("shown.bs.dropdown", h)
-    }
-    return !1
-  }
-}
+$(document).ready(function(){
+  $("#metatitle").html('Lean Outlet™ - Soluciones especializadas en Manufactura Esbelta y Cultura Lean');
+  $("#metadescription").attr("content","Somos una empresa especializada en proveer soluciones para la manufactura esbelta, tales como: mobiliario ergonómico, controles visuales y entrenamientos en lean manufacturing tales como Lego Serious Play.");
+  $("#metakeywords").attr("content","Mobilario ergonómico; Controles visuales; Entrenamiento y Capacitación; Manufactura Esbelta; Lean Manufacturing; Lean Training; Lean Culture; Cultura Lean; Lego Serious Play, VSM, Kaizen, Maquiladora, Manufacturera");
 
-function(c) {
-  if (/(38|40|27|32)/.test(c.which) && !/input|textarea/i.test(c.target.tagName)) {
-    var d = a(this);
-    if (c.preventDefault(), c.stopPropagation(), !d.is(".disabled, :disabled")) {
-      var e = b(d),
-        g = e.hasClass("open");
-      if (!g && 27 != c.which || g && 27 == c.which) return 27 == c.which && e.find(f).trigger("focus"), d.trigger("click");
-      var h = " li:not(.disabled):visible a",
-        i = e.find(".dropdown-menu" + h);
-      if (i.length) {
-        var j = i.index(c.target);
-        38 == c.which && j > 0 && j--, 40 == c.which && j < i.length - 1 && j++, ~j || (j = 0), i.eq(j).trigger("focus")
-      }
-    }
-  }
-}
-
-function() {
-  buttons.removeClass('active');
-  var cur = jQuery(this).attr('data-currency');
-  jQuery(".currency li[data-currency='" + cur + "']").addClass('active');
-
-  var newCurrency = jQuery(this).attr('data-currency');
-  if (newCurrency == Currency.currentCurrency) {
-    Currency.convertAll(shopCurrency, newCurrency);
-  } else {
-    Currency.convertAll(Currency.currentCurrency, newCurrency);
-  }
-
-  jQuery(".current-currency").text(cur);
-}
-
-function(t) {
-  return "undefined" != typeof re && re.event.triggered !== t.type ? re.event.dispatch.apply(e, arguments) : void 0
-}
-
-function() {
-  $j(".mobile-menu-wrapper").removeClass("open"), $j("body").removeClass("no-scroll")
-}
-
-function(e) {
-  e.preventDefault;
-  var t = 300,
-    i = $j(this).parent(),
-    o = $j(this).next("ul");
-  i.hasClass("open") ? (i.removeClass("open"), o.slideUp(t)) : (i.addClass("open"), o.slideDown(t))
-}
-
-function() {
-  "block" == o.css("display") ? o.slideUp("slow") : o.slideDown("slow"), e(this).html(i ? "&minus;" : "+"), i = !i
-}
-
-function(e) {
-  e.preventDefault(), $j(this).parent(".search").addClass("open"), $j(this).next(".search-dropdown").addClass("open"), $j("header .badge").addClass("badge--hidden")
-}
-
-function() {
-  // What's the search term?
-  var term = $(this).val();
-  // What's the search form?
-  var form = $(this).closest('form');
-  // What's the search URL?
-  var searchURL = '/search?type=product&q=' + term;
-  // What's the search results list?
-  var resultsList = form.find('.search-results');
-  // If that's a new term and it contains at least 3 characters.
-  if (term.length > 3 && term != $(this).attr('data-old-term')) {
-    // Saving old query.
-    $(this).attr('data-old-term', term);
-    // Killing any Ajax request that's currently being processed.
-    if (currentAjaxRequest != null) currentAjaxRequest.abort();
-    // Pulling results.
-    currentAjaxRequest = $.getJSON(searchURL + '&view=json', function(data) {
-      // Reset results.
-      resultsList.empty();
-      // If we have no results.
-      if (data.results_count == 0) {
-        // resultsList.html('<li><span class="title">No results.</span></li>');
-        // resultsList.fadeIn(200);
-        resultsList.hide();
-      } else {
-        // If we have results.
-        $.each(data.results, function(index, item) {
-          var link = $('<a></a>').attr('href', item.url);
-          link.append('<span class="thumbnail"><img src="' + item.thumbnail + '" /></span>');
-          link.append('<span class="title">' + item.title + '</span>');
-          link.wrap('<li></li>');
-          resultsList.append(link.parent());
+  App.connect("api/inicio/sesion/",false,function(response3){
+    if(response3=="no"){
+      $("#inises").html('<a id="iniciosesion" href="inicio_sesion" class="txtt"><i class="fa fa-user" aria-hidden="true"></i> Iniciar sesión</a>');
+      $("#iniciosesion").html('<i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión');
+      $("#iniciosesion").removeClass("cerrarsesion");
+    }else{
+      $("#inises").html('<form id="frmIniciose" action="http://www.bonzercreative.com/sitio_outlean/api/inicio/cerrarsesion/" method="post"><button id="iniciosesion" type="submit" class="btncerrarsesion txtt"><i class="fa fa-user" aria-hidden="true"></i> Cerrar Sesión</button></form>');
+       var $form = $("#frmIniciose"); 
+          $form.jform({
+           after:function(response){
+              window.location="inicio_sesion";
+           }
         });
-        // The Ajax request will return at the most 10 results.
-        // If there are more than 10, let's link to the search results page.
-        if (data.results_count > 10) {
-          resultsList.append('<li><span class="title"><a href="' + searchURL + '">See all results (' + data.results_count + ')</a></span></li>');
-        }
-        resultsList.fadeIn(200);
+      $("#iniciosesion").html('<i class="fa fa-user" aria-hidden="true"></i> Cerrar Sesión');
+      $("#iniciosesion").addClass("cerrarsesion");
+    }
+  });
+
+  App.connect("api/carrito/numproductos/",false,function(response2){
+    if(response2!=0){
+      var verifica=response2[0].suma;
+      if(verifica==null){
+        $("#cantidad").html('0 <i class="fa fa-shopping-basket" aria-hidden="true"></i>');
+      }else{
+       $("#cantidad").html(response2[0].suma+' <i class="fa fa-shopping-basket" aria-hidden="true"></i>'); 
       }
-      $('.search-results').css({
-        'width': input.innerWidth() + 2
-      });
+    }else{
+      $("#cantidad").html(response2+' <i class="fa fa-shopping-basket" aria-hidden="true"></i>');
+    }
+  });
+
+   App.connect("api/testimonios/getdata/",false,function(response4){
+     var band=false;
+     $.each(response4, function(index,value){
+      if(band==false){
+        $('#testimonios').append('<div class="item active"><img class="profile-circle" alt="Caso de éxito" src="fileimages/testimonios/'+value.img+'"><blockquote>'+value.txt_testimonios+'</blockquote><p class="txtdiesnu">'+value.nom_testimonios+'</p><p class="txtveint">'+value.empre_testimonios+'</p></div>');
+        band=true;
+      }else{
+        $('#testimonios').append('<div class="item"><img class="profile-circle" alt="Caso de éxito" src="fileimages/testimonios/'+value.img+'"><blockquote>'+value.txt_testimonios+'</blockquote><p class="txtdiesnu">'+value.nom_testimonios+'</p><p class="txtveint">'+value.empre_testimonios+'</p></div>');
+      }
     });
-  }
-}
+   });
 
-function(e) {
-  e.preventDefault(), $j(this).closest(".search").removeClass("open"), $j(this).closest(".search-dropdown").removeClass("open"), $j("header .badge").removeClass("badge--hidden")
-}
+   App.connect("api/videos/getdata/",false,function(response1){
+    $.each(response1, function(index,value){
+      $('#uvideos').append('<div class="col-md-12 txttredd">'+value.titulo+'</div><div class="col-md-12 text-center"><iframe class="anchovideo" src="'+value.url+'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>');
+    });
+   });
 
-function(e) {
-  e.preventDefault(), $j(this).closest(".dropdown.open .dropdown-toggle").dropdown("toggle")
-}
+   App.connect("api/articulo/getultimos/",false,function(response2){
+    $.each(response2, function(index,value){
+      $('#uarticulos').append('<div class="col-md-12 margincat margleftbloghome"><div class="col-md-8 padding"><p><a class="txtdie" href="blog/articulo/'+value.url+'">'+value.titulo+'</a></p><p class="txtdies">'+value.id_tags+'</p><p class="txtdiesio">'+value.fecha+'</p></div><div class="col-md-4 padding imgart1"><img alt="Artículo de Lean Outlet™" src="fileimages/articulo/'+value.img+'" class="artwidth"></div></div>');
+    });
+   });
 
-function(e) {
-  e.preventDefault()
-}
-
-function() {
-  var e = $j(this),
-    t = e.find(".dropdown-menu");
-  clearTimeout(timerVar), $j(window).unbind("scroll", menuScroll), e.hasClass("active") && (t.fadeOut(300), setTimeout(removeActiveItem, 300, e), $j("body").hasClass("hidden-menu") && $j("body").removeClass("hidden-menu"))
-}
-
-function() {
-  var e = $j(this),
-    t = e.find(".dropdown-menu");
-  t.length && (t.fadeOut(0), timerVar = setTimeout(function() {
-    e.addClass("active"), t.fadeIn(200), submenuXposition(t), submenuYposition(t), $j(window).bind("scroll", {
-      obj: t
-    }, menuScroll)
-  }, 300))
-}
+   
+});

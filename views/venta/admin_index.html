@@ -1,0 +1,36 @@
+<div class="div-t table-responsive">
+<table class="table-striped" data-class="table table-bordered table-hover table-striped"
+       data-toggle="table"
+       data-url="{{ Html.Link('api/venta/getdatos','',{'action':true}) }}"
+       data-pagination="true"
+       data-query-params="queryParams"
+       data-side-pagination="server"
+       data-page-list="[15, 30, 50, 100, 200]"
+       data-search="true"
+       data-show-toggle="true"
+       data-show-columns="true"
+       data-sort-name="orden"
+       data-sort-order="asc"
+       data-page-size="15"
+       data-pagination-first-text=false
+       data-pagination-pre-text=false
+       data-pagination-next-text=false
+       data-pagination-last-text=false
+       id="venta_table"
+       >
+    <thead>
+         <tr>
+            <th class="col-sm-1" data-sortable="true" data-field="id_venta"><div class="titulo-th">ID</div></th>
+            <th class="col-sm-2" data-sortable="true" data-field="id_prod"><div class="titulo-th">ID PRODUCTO</div></th>
+            <th class="col-sm-2" data-sortable="true" data-field="email"><div class="titulo-th">USUARIO</div></th>
+            <th class="col-sm-2" data-sortable="true" data-field="nom_prod"><div class="titulo-th">PRODUCTO</div></th>
+            <th class="col-sm-2" data-sortable="true" data-field="mod_prod"><div class="titulo-th">MODELO</div></th>
+            <th class="col-sm-2" data-sortable="true" data-field="img_prod"><div class="titulo-th">IMAGEN</div></th>
+            <th class="col-sm-1" data-sortable="true" data-field="cant_prod"><div class="titulo-th">CANTIDAD</div></th>
+            <th class="col-sm-1" data-sortable="true" data-field="precio_prod"><div class="titulo-th">PRECIO</div></th>
+            <th class="col-sm-1" data-sortable="true" data-field="total"><div class="titulo-th">TOTAL</div></th>
+            <th class="col-sm-2" data-sortable="true" data-field="fecha"><div class="titulo-th">FECHA</div></th>
+        </tr>
+    </thead>
+</table>
+</div>

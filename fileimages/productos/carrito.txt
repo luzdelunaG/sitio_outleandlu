@@ -1,0 +1,18 @@
+ if($verificare!=""){
+             return "El usuario si existe";
+        }else{
+            return "El usuario no existe";
+        }
+		/*if(ctype_alnum($this->Post["email"])){
+            $Inicio = $this->Inicio->onlyByEmail($this->Post["email"]);
+            	
+            if(!empty($inicio)){
+            	  if (password_verify($this->Post["password"], $inicio["contrasena"])) {
+                    session_start();
+                    $_SESSION["name"]=$inicio["email"];              
+                    return ['token' =>$jwt, "menu"=>$menu,"success"=>"Autentificación valida"];
+                }else return ["error"=>"La contraseña o usuario incorrecto"];
+            }else return ["error"=>"El usuario no existe"];
+        }*/
+        
+      

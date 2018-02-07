@@ -4,6 +4,20 @@ use Control\Lean;
 use Core\Config;
 
 class IndexControl extends Lean{
+
+
+ function api_sesion(){
+    session_start();
+    if(isset($_SESSION['usuario'])){
+      $email=$_SESSION['usuario']['email'];
+    }else{
+      $email="no";
+    }
+    return $email;
+ }
+
+  
+
 	function index(){
 		$this->Send("title",_t("admiNet"));
     //echo("holi!!!!!!");
@@ -11,6 +25,7 @@ class IndexControl extends Lean{
     //$secciones = $this->Secciones->find("*", false, false);
     //echo($secciones);
     //$this->Send("secciones", $secciones);
+
 	}
 	function politicas(){
 
@@ -20,6 +35,8 @@ class IndexControl extends Lean{
       	$this->send("title","admiNet");
 
 	}
+
+
 
 	function gracias(){
       	$this->send("title","admiNet");

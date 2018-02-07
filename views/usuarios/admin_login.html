@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-4 column"></div>
+        <div class="col-md-4 column ">
+
+            <div class="img-admin">{{ Html.Img("templates/admin/admiNETlogo.svg", {"class":"","link":""}) }}</div>
+            <div class="caja">
+                {{Form.Create({"control":"usuarios","function":"validar"},"login","post","class='form-signin'")}}
+                <div class="encform">
+                    {{"Bienvenido"}}
+                    {{ Html.Img("templates/admin/Lean Outlet.png", {"class":"img-logo","link":""}) }}
+                </div>
+                <div class="form-group">
+                    {{Form.Input("usuario",{"placeholder":"Usuario","class":"form-admin"})}}
+                </div>
+                <div class="form-group">
+                    {{Form.Input("password",{type:"password", "placeholder":"Contraseña","class":"form-admin"})}}
+                </div> 
+                <div class="form-group"> 
+                    {{Form.Submit("Iniciar Sesión",{"class":"btn-admin"})}}
+                </div>
+                {{Form.End()}}
+            </div>
+            <div class="derechos">
+                {{"Derechos Reservados-"}}<!--{{ Html.Img("templates/admin/sesmarklogo2-01.svg", {"class":"logo-chico","link":""})}}--> {{"Aviso de privacidad"}}
+            </div>
+        </div>
+        <div class="col-md-4 column"></div>
+    </div>
+</div>
+<div class"row">
+<footer class="foot navbar-fixed-bottom"></footer>
+</div>
+
+

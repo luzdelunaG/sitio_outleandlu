@@ -3,12 +3,12 @@
 .encform{text-align: center; font-size: 20px;color: #969696;font-weight: bold;}
 .img-admin{text-align: center;}
 .form-admin{width: 100%; border-color: #E5E6E7;border-style: solid; height: 33px; }
-.btn-admin{width: 60%; height: 35px;margin-left: 60px; background-color: #803b8b;border-top-right-radius: 5% 20%; border-top-left-radius: 5% 20%; border-bottom-right-radius: 5% 20%; border-bottom-left-radius: 5% 20%; border:none; color: white;}
-.foot{background-color: #803b8b;height: auto; padding: 20px;position: fixed; }
+.btn-admin{width: 60%; height: 35px;margin-left: 60px; background-color: #2FB4F5;border-top-right-radius: 5% 20%; border-top-left-radius: 5% 20%; border-bottom-right-radius: 5% 20%; border-bottom-left-radius: 5% 20%; border:none; color: white;}
+.foot{background-color: #2FB4F5;height: auto; padding: 20px;position: fixed; }
 .container{min-height: 100%}
 .img-admin{margin-bottom: 20px;}
 .img-admin img{width: 90%;}
-.img-logo{width: 75%}
+.img-logo{width: 75%;margin-bottom: 1rem;margin-top: 1rem;}
 .logo-chico{width: 25%; margin-top: -7px}
 .derechos{font-size:10px;text-align: center; margin-top: 15px; }
 html,body{height: 100%; margin: 0px; font-size: 16px ;font-family:OpenSans; color: #8E9092;}
@@ -61,12 +61,12 @@ filter: grayscale(0);
 /* Para el template de Admin*/
 .navbar-fixed-top{background-color:#E3E3E5;}
 .navbar-header{background-color: white;}
-.img-logo2{width:138px; display: inline-block;margin-top: 0px;margin-right: 20px}
+.img-logo2{width:138px; display: inline-block;margin-top: 20px;margin-right: 20px}
 .btn-salir{background-color: #E3E3E5;color: #676A6C;display: inline-block; margin: 22px !important;}
 .navbar-right{text-align: center;margin: 0;}
 .menu-sesmark{display: inline-block;}
 div.listones{height: 10px}
-.lazul{background: #803b8b; height: 10px; float: right; width: 83.3334%}
+.lazul{background: #2FB4F5; height: 10px; float: right; width: 83.3334%}
 .lnegro{background:	#405B65; height: 10px; float: left; width:  16.6667%;}
 .lgris{background: #C9C9C9; min-height: 2px;}
 .barra{background: #E3E3E5;position: relative;margin: 0px auto;}
@@ -75,8 +75,8 @@ div.listones{height: 10px}
 .navbar-header img{width: 183px; margin-top: 8px; margin-left: auto; margin-right: auto;}
 a{color: #676A6C}
 .derechos2{font-size:10px;text-align: center; color: white; width: 30%;float: right;}
-.logo-derechos2{width: 17%;margin-bottom: 18px;margin-top: 5px;}
-.foot2{background-color: #803b8b;height: auto;position: fixed; height:45px;}
+.logo-derechos2{width: 17%;margin-bottom: 18px;margin-top: 5px;margin-left:1rem;}
+.foot2{background-color: #2FB4F5;height: auto;position: fixed; height:45px;}
 .titulo{font-size: 25px;height: 25px;}
 .subtitulo{font-size: 12px; margin-top: 5px;}
 .panel2{ margin-bottom: 30px;}
@@ -127,12 +127,12 @@ a{color: #676A6C}
 .modal-dialog{margin-top: 180px; width: 500px; }
 
 /*Para elementos de formularios*/
-.btn-agregar{background-color: #803b8b;border-bottom-left-radius: 7px 7px; border-bottom-right-radius: 7px 7px; border-top-right-radius: 7px 7px; border-top-left-radius: 7px 7px;  width: 130px; font-family: OpenSans-Bold;border-color: transparent; color: white;}
-.btn-agregar:hover{ color: #E6E6E7; }
+.btn-agregar{background-color: #2FB4F5;border-bottom-left-radius: 7px 7px; border-bottom-right-radius: 7px 7px; border-top-right-radius: 7px 7px; border-top-left-radius: 7px 7px;  width: 130px; font-family: OpenSans-Bold;border-color: transparent; color: white;}
+.btn-agregar:hover{ color: #fff; }
 .btn-deshabilitado{background-color: #F9F9F9;border-bottom-left-radius: 7px 7px; border-bottom-right-radius: 7px 7px; border-top-right-radius: 7px 7px; border-top-left-radius: 7px 7px;  width: 130px; font-family: OpenSans-Bold;border-color: #DBDBDB; color: #DBDBDB;}
 .btn-imprimir{background-color: white; border-color: #EDEDED ;color: #676A6C ;border-radius: 0px; border-width: 2px;}
 .btn-imprimir:hover{ background-color: #F9F9F9; color:black;}
-.btn-agregar:hover{background-color: #803b8b;}
+.btn-agregar:hover{background-color: #2FB4F5;}
 .checkbox{display: inline-block;cursor: pointer;position: relative;padding-left: 25px;margin-right: 15px;}
 input[type=checkbox] {display: none;}
 .checkbox:before {content: "";display: inline-block;width: 20px; height: 20px;margin-right: 10px;position: absolute; left: 0;bottom: 1px;background-color: #FFF;padding-top: 3px;}
@@ -187,12 +187,12 @@ input[type="radio"][disabled] + label{cursor:not-allowed;}
   }
 
 .iconos-col a{cursor: pointer; font-size: 16px;}
-.eliminar{ color:#803b8b; font-size: 22px !important; margin: 0px 3px;}
-.editar{ color:#803b8b; font-size: 22px !important;  }
-.arrastrar{color: #803b8b;font-size: 22px !important; cursor: pointer;}
+.eliminar{ color:#2FB4F5; font-size: 22px !important; margin: 0px 3px;}
+.editar{ color:#2FB4F5; font-size: 22px !important;  }
+.arrastrar{color: #2FB4F5;font-size: 22px !important; cursor: pointer;}
 .mostrar{ display: inline; }
 .ajuste-xol-1{text-align: center;}
-.pdf{color: #803b8b;font-size: 22px !important; cursor: pointer;}
+.pdf{color: #2FB4F5;font-size: 22px !important; cursor: pointer;}
 
 .nomostrar{display: none;}
 .table > tbody > tr > td > p{
@@ -208,7 +208,7 @@ input[type="radio"][disabled] + label{cursor:not-allowed;}
 .table > thead > tr > th {
 	vertical-align: bottom;
 	border-bottom: 2px solid #C9C9C9;
-	background-color: #803b8b;
+	background-color: #2FB4F5;
 	border-right: 2px;
 	border-color: #C9C9C9;
 	border-right: 2px solid #C9C9C9;
@@ -296,7 +296,7 @@ input[type="radio"][disabled] + label{cursor:not-allowed;}
 }
 
 img{
-	max-width: 66rem;
+	max-width: 25rem;
 }
 
 /**para el modal de recorte de imagen**/

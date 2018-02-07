@@ -8,6 +8,12 @@
   src: url(../fonts/Roboto-bold.ttf) format('truetype');
 }
 
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(../fonts/Roboto-bold.ttf) format('truetype');
+}
+
 @font-face {
   font-family: "OpenSans-Italic";
   src: url(../fonts/OpenSans-Italic.ttf) format('truetype');
@@ -22,10 +28,12 @@
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
 }
-.titcasos{font-family: OpenSans-Bold;}
+
+.puntoblanco{color: #fff;}
+.titcasos{font-family: OpenSans;font-size: 3rem;}
 .backgroundhead{background-color:#2FB4DA;height: 3.5rem;padding: 0px;}
 .txtu{text-align: right;color: #fff;font-size: 1.5rem;margin-top: 0.5rem;}
-.fondou{background-color: #7F7F7F;text-align: center;}
+.fondou{background-color: #7F7F7F !important;text-align: center;}
 .txtd{color: #F5F5F5;font-size: 2.1rem;}
 .txtd:hover{color: #F5F5F5;text-decoration: none;}
 .margenu{margin-top: 0.5rem;padding: 0px;}
@@ -38,7 +46,8 @@
 .margend{margin-right: -4rem;}
 .backgroundheadd{background-color:#FFFFFF;height: 10rem;}
 .imgu{width: 24rem;padding-top: 2rem;}
-.txtci{color: #808080;font-size: 2rem; font-family: OpenSans-Bold;margin-left: 3.5rem;}
+.imguno{width: 24rem;padding-top: 2rem;}
+.txtci{color: #808080;font-size: 2.3rem; font-family: OpenSans;margin-left: 3.5rem;}
 .txtci:hover{color: #808080;text-decoration: none;}
 .margent{margin-top: 3.5rem;}
 .backgroundheadt{background-color: #fff;height: 5rem;}
@@ -47,27 +56,27 @@
 .redesh{margin-left: 0rem;}
 .margincu{margin-left: 21rem;}
 .txtse{font-size: 3rem !important;}
-.colorear{background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;padding-top: 5rem;padding-bottom: 5rem;}
+.colorear{background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans;font-size: 2.2rem;padding-top: 5rem;padding-bottom: 5rem;height: 100%;height: 100%;}
 /*.imgmargin{margin-left: 6rem;}*/
 .flecha{color: #3CB8F5;text-align: center;margin-left: -4rem;}
 .marginse{margin-top: 15rem;color:#3CB8F5;}
 .sincir{list-style:none;}
-.marginsie{margin-left: 19rem !important;}
-
+.marginsie{margin-left: 0rem !important;}
 .backgroundgray{background-color: #5D5D5D;color: #5D5D5D;height: 27rem; padding: 0px !important;}
+
 #image{
   background-image:url(http://interlake.com.mx/blog/wp-content/uploads/2016/06/racks-para-almacenes-fuera-2.jpg);
   max-width: 100VH;
   height: 29rem;
   padding: 0px;
-  opacity: 0.2;
+
 }
 #image2{
   background-image:url(http://www.cardumen467.com/wp-content/uploads/2015/12/pizarron-chemours1.jpg);
   max-width: 100VH;
   height: 29rem;
   padding: 0px;
-  opacity: 0.2;
+
 }
 
 #image3{
@@ -75,49 +84,56 @@
   max-width: 100VH;
   height: 29rem;
   padding: 0px;
-  opacity: 0.2;
+
 }
-.imgblue{background-color: rgba(15,163,223,.7);color: #fff;}
-.txtsei{margin-top: -16rem;font-size: 3rem;color: #fff;margin-left: 3rem;font-family: OpenSans-Bold;z-index: 0;}
-.txtsei:hover{transition-duration: .5s;margin-top: -20rem;}
+.imgblue{background-color: rgba(15,163,223,.7);color: #fff;height: 29rem;}
+.padpimgblue{padding-top: 10.5rem;padding-bottom: 10rem;}
+.widthtextchome{width: 15rem;}
+.txtsei{margin-top: 0rem;font-size: 3rem;color: #fff;margin-left: 3rem;font-family: OpenSans;z-index: 45;}
+/*.txtsei:hover{transition-duration: .5s;margin-top: -20rem;}*/
 .marginoch{margin-left: 3rem !important;}
 .centrardiv{margin-left: auto;margin-right: auto;}
-.backgroundgrayd{background-color: #5D5D5D;color: #fff;font-size: 2.5rem;}
+.backgroundgrayd{background-color: #5D5D5D;color: #fff;font-size: 2.3rem;}
 .padding{padding: 0px !important;}
-.txtnu{font-family: OpenSans-Bold;font-size: 45px;}
+.txtnu{font-family: OpenSans;font-size: 3rem;text-align: center;}
 .txtdi{font-family: OpenSans-Bold;text-align: right;font-size: 45px;}
-.margindoc{margin-top: 4rem;font-size: 2rem;}
-.margintre{margin-top: 2rem;font-size: 2rem;}
+.margindoc{margin-top: 4rem;font-size: 2.3rem;}
+.margintre{margin-top: 2rem;font-size: 2.3rem;}
 .flechazul{color: #2FB4F5;}
 .backgroundazul{background-color: #00A5E9;color: #fff;}
 .redcolor{color: #5D5D5D;font-size: 4rem !important;}
 .redcolor:hover{color:#5D5D5D; text-decoration: none;}
 .altoimg{height: 69rem;}
 .txtonc{text-align: right;font-size: 2rem;}
-.backgroundblue{background-color: #2FB4F5}
-.backgroundgrayt{background-color: #D2D4D3;}
-.txtdoc{color: #fff;font-family:OpenSans-Bold;font-size: 2.5rem;}
+.backgroundblue{background-color: #2FB4F5;height: 65rem;}
+.backgroundgrayt{background-color: #D2D4D3;height: 65rem;}
+.txtdoc{color: #fff;font-family:OpenSans;font-size: 2rem;}
 .paddingdos{padding-top: 2rem;padding-bottom: 2rem; }
 .txttre{color: #fff;font-size: 2rem;}
+.txttred{color: #fff;font-size: 2rem;}
+.txttredd{color: #fff;font-size: 2rem;}
 .txtcat{color: #5D5D5D !important;}
 .txtcat:hover{color: #5D5D5D;text-decoration: none;}
 .paddingtres{padding-top: 2rem;padding-bottom: 1rem; }
-.txtqui{color: #5D5D5D;font-family:OpenSans-Bold;font-size: 2.5rem;}
-.txtdie{color: #2FB4F5;font-size: 2rem;}
-.txtdies{color: #5D5D5D;font-size: 1.5rem;}
-.txtdiesio{color: #5D5D5D;font-size: 1.5rem;font-family: OpenSans-Bold;}
+.paddingtres1{padding-top: 2rem;padding-bottom: 1rem; }
+.txtqui{color: #5D5D5D;font-family:OpenSans;font-size: 2.5rem;}
+.txtquid{color: #5D5D5D;font-family:OpenSans;font-size: 2.5rem;}
+.txtdie{color: #2FB4F5;font-size: 2rem;text-decoration: none;}
+.txtdie:hover{color: #2FB4F5;text-decoration: none;}
+.txtdies{color: #5D5D5D;font-size: 1.6rem;font-family: OpenSans;}
+.txtdiesio{color: #5D5D5D;font-size: 1.6rem;font-family: OpenSans-Bold;}
 .margincat{margin-bottom: 2.1rem;}
-.txtdiesnu{color: #2FB4F5;font-family: OpenSans-Bold;text-align: center;}
-.txtveint{text-align: center;font-family: OpenSans-Italic;}
+.margincat1{margin-bottom: 2.1rem;}
+.txtdiesnu{color: #2FB4F5;font-family: OpenSans-Bold;text-align: center;font-size: 1.6rem;}
+.txtveint{text-align: center;font-family: OpenSans-Italic;font-size: 1.6rem;}
 .border{border-style: solid;border-color:#2FB4F5;}
 .backgroundbluedos{background-color: #2FB4F5;}
-.txtveintu{font-size: 2rem;color: #fff;}
+.txtveintu{font-family: OpenSans;font-size: 1.8rem;color: #fff;}
 .paddingcuatro{padding-top: 3rem;padding-bottom: 0rem;}
-.txtveintdos{font-size: 2.5rem;font-family: OpenSans-Bold;color: #fff;}
+.txtveintdos{font-size: 2.1rem;font-family: OpenSans-Bold;color: #fff;}
 .paddingcinco{padding-bottom: 1rem;}
-.btncont{background-color: #2FB4F5;color: #fff;font-family: OpenSans-Bold;border-style: solid;border-width: 2px;padding: 1rem 3rem 1rem;border-color: #fff;
-font-size: 2rem;}
-.marginqui{margin-bottom: 4rem;}
+.btncont{background-color: #2FB4F5;color: #fff;font-family: OpenSans-Bold;border-style: solid;border-width: 2px;padding:0.5 0.6 1rem;;border-color: #fff;font-size: 2rem;}
+.marginqui{margin-bottom: 3rem;}
 .backgroundblank{background-color: #fff;}
 .txtveinttres{color: #5D5D5D;font-size: 3.5rem !important;margin-left: 1rem;}
 .margindiesi{text-align: right;padding-top: 3rem;}
@@ -129,15 +145,12 @@ font-size: 2rem;}
 .letracolor2:hover{color: #202020;text-decoration: none;}
 .txtveintseis{text-align: left;font-family:OpenSans-Bold;padding-top: 2rem;}
 .txtveintsiet{text-align: left;color: #202020;margin-bottom: auto;font-size: 1.3rem;}
-.letracolor3 {color: #5D5D5D;margin-left: 1rem;}
+.letracolor3 {color: #5D5D5D;}
 .letracolor3:hover {color: #5D5D5D;text-decoration: none;}
 .letracolor4{color: #fff;}
 .letracolor4:hover{color: #fff;text-decoration: none;}
 .enviar{text-align: right;margin-top: 1.5rem;}
-.enviar1{width: 9rem;
-background-color: #2FB4F5;
-border-radius: 3px;
-color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-top: 0.5rem;padding-bottom: 0.5rem;}
+.enviar1{width: 9rem;background-color: #2FB4F5;border-radius: 3px;color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-top: 0.5rem;padding-bottom: 0.5rem;}
 .backgroundgray4{
   background-color: #5D5D5D;
   color: #fff;
@@ -154,8 +167,12 @@ color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-
   width:430px; height:200px;
 }
 
+.anchovideoblogart{
+ width: 536px;
+}
+
 .mapatam{
-  width:800px;height:318px;
+  width:100%;height:318px;
 }
 
 .cuadrosmargen{
@@ -164,8 +181,9 @@ color: #fff; font-family:  OpenSans-Bold !important; font-size: 1.5rem; padding-
 
 .list-nav{
   margin-top: 3rem;
-margin-bottom: 8rem;
+margin-bottom: 1rem;
   list-style:none;
+  margin-left: -3rem;
 }
 
 .list-nav-txt{
@@ -181,103 +199,357 @@ margin-bottom: 8rem;
   background-color: rgba(9,57,89, 0.8);
   background: rgba(9,57,89, 0.8);
   color: #fff;
-  font-family: OpenSans-Bold;
- padding-top: 6.7rem;
-padding-bottom: 6.8rem;
+  padding-top: 14.1rem;
+  padding-bottom: 14.1rem;
   font-size: 4rem;
-  width: 36rem !important;
+  width: 48.5rem !important;
 }
-
 .licolor{color:#2FB4F5;}
 .backgroundlist{background-color:#2FB4F5;color:#2FB4F5;}
-.imgbanner{ background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 100VH;height: 27rem;opacity: 0.8;}
-.marginbanner{margin-left: 4rem;}
-.imgcarousel{background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 120rem !important;opacity: 0.9;height: 35rem;}
-.colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8.9rem;padding-bottom: 8.9rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+.imgbanner{ background-image: url(https://www.tesselar.mx/wp-content/uploads/2016/09/Blog-Manufactura.jpg);width: 100VH;height: 27rem;}
+.imgbannernos{ background-image: url(../../../fileimages/nosotros/acercadenosotros.jpg);width: 100VH;height: 35rem;background-position-y: 0rem;}
+.imgbannermob{ background-image: url(../../../fileimages/mobiliaria/footer.jpg);width: 100VH;height: 35rem;background-position: 19rem;}
+.imgbannercont{ background-image: url(../../../fileimages/visuales/footer.jpg);width: 100VH;height: 35rem;background-position: 5rem;}
+.imgbannerblog{ background-image: url(../../../fileimages/blog/footer.jpg);width: 100VH;height: 35rem;background-position: 12rem 0rem;}
+.imgbannerconta{ background-image: url(../../../fileimages/contacto/footer.jpg);width: 100VH;height: 35rem;background-position: 7rem 0rem;}
+.imgbannermate{ background-image: url(../../../fileimages/materiales/footer.jpg);width: 100VH;height: 35rem;background-position: 5rem;}
+.imgbannerart{ background-image: url(../../../fileimages/articulo/bannera.jpg);width: 100VH;height: 35rem;background-position: 0rem -4rem;}
+.marginbanner{margin-left: 5rem;}
+.imgcarousel{background-image: url(../../../fileimages/home/wallpaperh.jpg);width: 120rem !important;height: 35rem;background-size: cover;background-position: -7rem;}
+.imggracias{background-image: url(../../../fileimages/home/wallpaperh.jpg);width: 120rem !important;height: 35rem;background-size: cover;background-position: 0rem;}
+.imgcarouseld{background-image: url(../../../fileimages/home/wallpaperhd.jpg);width: 120rem !important;height: 35rem;background-size: cover;}
+.imgcarouselt{background-image: url(../../../fileimages/home/wallpaperht.jpg);width: 120rem !important;height: 35rem;background-position-x: 12rem;background-size: cover;}
+.imgcarouselc{background-image: url(../../../fileimages/home/wallpaperhc.jpg);width: 120rem !important;height: 35rem;background-size: cover;background-position: 1rem;}
+.colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8.9rem;padding-bottom: 8.9rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans;font-size: 2.2rem;height: 100%;}
 .anchocuadro{width: 31rem !important;height: 31rem;}
+.margredhome{margin-left: 2rem;}
+.centrardivd{position:absolute;left: 35%;right: 35%;border-color: #2FB4F5;font-family: OpenSans;font-size: 2.3rem;}
+.marctithome{border-width: 0.3rem;border-style: solid;margin-bottom: 3rem;}
+.padtitprodhome{padding-top: 1rem;}
+.subtithomfont{font-size: 2.5rem;}
+.imgml{background-image: url(../../../fileimages/home/ml.png);height: 31rem;border-radius: 2rem;margin-top: 4rem;margin-bottom: 4rem;background-size: contain;background-repeat: no-repeat;}
+.imgcv{background-image: url(../../../fileimages/home/cv.png);height: 31rem;border-radius: 2rem;margin-top: 4rem;margin-bottom: 4rem;background-size: contain;background-repeat: no-repeat;}
+.imgmpe{background-image: url(../../../fileimages/home/mpe.png);height: 31rem;border-radius: 2rem;margin-top: 4rem;margin-bottom: 4rem;background-size: contain;background-repeat: no-repeat;}
+.margcuadrosdos{margin-bottom: 2rem;}
+.acuadros{font-family: OpenSans;color: #2FB4F5; font-size: 2.3rem;}
+.acuadros:hover{font-family: OpenSans;color: #2FB4F5; font-size: 2.3rem;}
+.imgart1{text-align: left;}
+.menutxt{font-family: OpenSans;color: #000;text-decoration: none;}
+.menutxt:hover{font-family: OpenSans-Bold;color: #000;text-decoration: none;}
+.margimghome{margin-top:2rem;}
+.margimgcotiza{margin-left: -9rem;}
+.mrgtopcotb{margin-top: 3rem;}
+.txtestdos{font-family: OpenSans;color: #000;font-size: 1.6rem;margin-left: 0rem;text-align: justify;}
+.imgsliderpd{width: 100%;height: 19rem;}
+.imgpropeq{width: 7rem;}
+.margntopcar{margin-top: 3rem;margin-bottom:3rem;}
+#confProducto{z-index: 1000;}
+.selectcant{width: 9rem;margin-bottom: 3rem;}
+.btncerrarsesion{border: 0px;background-color: #2FB4DA;}
+.tamimgsim{width: 20rem;}
+.txtgraccomp{margin-top: 7rem;margin-bottom: 2rem;}
+.txtgraccompd{margin-bottom: 7rem;}
+.atxtgraccomp{color: #2FB4F5;text-decoration: underline;}
+.atxtgraccomp:hover{color: #2FB4F5;}
+.st-btn[data-network="sharethis"] {background-color: #2FB4DA !important;margin-top: 1rem;padding-left:2rem;}
+.btn--ys.btn--xldd{padding: 8px 10px;font-size: 1.1em;font-weight: 500;height: auto;}
+.aolvidaste{color:#2FB4F5;text-decoration: none;font-family: OpenSans;}
+.aolvidaste:hover{color:#2FB4F5;text-decoration: none;}
+.margolvi{margin-top: 2rem;}
 
-
-.titnos{text-align: center;font-family: OpenSans-Bold;font-size: 4rem;padding-left: 13rem;padding-right: 13rem;margin-top: 1rem;}
+.titnos{text-align: center;font-family: OpenSans;font-size: 3rem;padding-left: 13rem;padding-right: 13rem;margin-top: 1rem;}
 .tamlognos{text-align: center;height: 4rem;}
-.marflecha{margin-top: 6rem;margin-bottom: 6rem;}
-.titqui{text-align: center;font-family: OpenSans-Bold;font-size: 4rem;}
+.marflecha{margin-top: 4rem;margin-bottom: 6rem;}
+.titqui{text-align: center;font-family: OpenSans;font-size: 3rem;}
 .margintit{margin-bottom: 3rem;}
-.txtqui{font-size: 2rem;font-family: OpenSans;color: #000;line-height: 2.5rem;margin-bottom: 4rem;}
+.txtqui{font-size: 1.6rem;font-family: OpenSans;color: #000;line-height: 3rem;margin-bottom: 4rem;text-align: justify;}
+.txtquid{font-size: 2rem;font-family: OpenSans;color: #000;line-height: 3rem;margin-bottom: 0rem;text-align: justify;}
 .anchnosvid{width: 700px;height: 380px;}
 .margvidnos{margin-bottom: 5rem;}
-.txtadi{font-size: 2rem;font-family: OpenSans;color: #000;line-height: 2.5rem;}
+.txtadi{font-size: 1.9rem;font-family: OpenSans;color: #000;line-height: 3rem;text-align: justify;}
 .margincua{margin-top: 3rem;margin-bottom: 7rem;}
-.edificiosfondo{background-image: url(../../../fileimages/nosotros/banner_sig_logistica_other1.jpg);width: 100VH;height: 50.5rem;margin-bottom: 8rem;}
-.capaedificios{background-color: rgba(209,211,211, 0.9);background: rgba(209,211,211, 0.9);width: 100VH;height: 50.5rem;}
-.titobj{font-family: OpenSans-Bold;font-size: 4rem;padding-top: 2rem;padding-bottom: 2rem;}
-.txtobj{font-size: 2rem;font-family: OpenSans;color: #000;line-height: 2rem;padding-bottom: 1rem;}
-.txtobj2{font-size: 2rem;font-family: OpenSans;color: #000;line-height: 2rem;padding-bottom: 1rem;}
-.txtobj3{font-size: 2rem;font-family: OpenSans;color: #000;line-height: 2rem;}
-.titcomp{font-family: OpenSans-Bold; font-size: 4rem;margin-bottom: 5rem;}
-.txtcomp{font-family: OpenSans;color: #000;line-height: 2rem;font-size: 2rem;}
+.edificiosfondo{background-image: url(../../../fileimages/nosotros/objetivo.jpg);width: 100VH;height: 60.5rem;margin-bottom: 8rem;}
+.capaedificios{background-color: rgba(209,211,211, 0.9);background: rgba(209,211,211, 0.9);width: 100VH;height: 60.5rem;}
+.titobj{font-family: OpenSans;font-size: 3rem;padding-top: 2rem;padding-bottom: 2rem;color: #2FB4F5;}
+.txtobj{font-size: 1.9rem;font-family: OpenSans;color: #000;line-height: 3rem;padding-bottom: 1rem;text-align: justify;}
+.txtobj2{font-size: 1.9rem;font-family: OpenSans;color: #000;line-height: 3rem;padding-bottom: 1rem;text-align: justify;}
+.txtobj3{font-size: 1.9rem;font-family: OpenSans;color: #000;line-height: 3rem;text-align: justify;margin-bottom: 2.5rem;}
+.titcomp{font-family: OpenSans; font-size: 3rem;margin-bottom: 5rem;margin-top:5rem;}
+.txtcomp{font-family: OpenSans;color: #000;line-height: 3rem;font-size: 1.9rem;text-align: justify;}
 .margcomp1{margin-bottom: 2.5rem;}
 .margcomp2{margin-bottom: 2.5rem;}
 .margcomp3{margin-bottom: 2rem;}
-.margcompro{margin-bottom: 10rem;}
-.titopc{font-family: OpenSans-Bold;font-size: 4rem;padding-bottom: 2rem;}
+.margcompro{margin-bottom: 3rem;}
+.titopc{font-family: OpenSans;font-size: 3rem;padding-bottom: 2rem;}
 .paddmuc{padding-left: 2rem;}
-.imgning{background-image: url(../../../fileimages/nosotros/empresas.jpg); width: 100VH;height: 26rem;margin-bottom: 7rem;}
+.imgning{background-image: url(../../../fileimages/nosotros/experiencia.jpg); width: 100VH;height: 26rem;margin-bottom: 7rem;}
 .caping{background: rgba(47,180,245, 0.9); width: 100VH; height:  26rem;}
-.txtopcing{font-family: OpenSans-Bold;font-size: 3rem;color:#fff;padding: 9rem 20rem 26rem 22rem;}
-.txtopcingd{font-family: OpenSans;color: #000;font-size: 2rem;line-height: 2.9rem;margin-bottom:7rem; }
+.txtopcing{font-family: OpenSans;font-size: 2.3rem;color:#fff;padding: 9rem 20rem 26rem 22rem;}
+.txtopcingd{font-family: OpenSans;color: #000;font-size: 1.9rem;line-height: 3rem;margin-bottom:7rem;text-align: justify;}
 .marginrednos{margin-bottom: 4rem;}
+.imgheightnos{height: 60.5rem;}
+.frasenos{text-align: center;font-size: 2.3rem;color: #38AFE7;margin-top: 6rem;margin-bottom: 6rem;}
+.widhtfrase{}
+
+
+.backgroundbannerd {background-color: rgba(9,57,89, 0.8);background: rgba(9,57,89, 0.8);color: #fff;font-family: OpenSans;padding-top: 14.1rem;padding-bottom: 14.1rem;font-size: 4rem;width: 48.5rem !important;}
+.marginbannerd{margin-left: 8.9rem;}
+.marginbannerseis{margin-left: 5.9rem;}
+.titest{font-family: OpenSans;font-size: 3rem;margin-top: 3rem;}
+.margest{margin-left: -4.5rem;font-family: OpenSans;font-size: 2.3rem;}
+.margesta{margin-left: -4.5rem;font-family: OpenSans;font-size: 2.3rem;}
+.fletitu{color: #2FB4F5; font-family: OpenSans-Bold;font-size: 1.3em;margin-top: 0.2rem;}
+.fletitd{color: #2FB4F5; font-family: OpenSans-Bold;font-size: 2rem;margin-top: 0.3rem;}
+.txtest{font-family: OpenSans;color: #000;font-size: 1.9rem;margin-left: 2.8rem;text-align: justify;}
+.txtestac{font-family: OpenSans;color: #000;font-size: 1.9rem;margin-left: 2.8rem;text-align: justify;}
+.margtopest{padding-top: 0rem;margin-left: 0rem;}
+.backgroundestbox{background-color: #D2D4D3;}
+.txtboxpadu{padding-top: 1.5rem;}
+.txtboxestu{color: #2FB4F5;font-family: OpenSans;font-size: 2.3rem;}
+.txtboxestu:hover{color: #2FB4F5;text-decoration: none;}
+.hru{background-color: #fff; }
+.hrt{background-color: #000; }
+.txtboxestd{color: #000;font-family: OpenSans;font-size: 2.3rem;}
+.txtboxestd:hover{color: #000;text-decoration: none;}
+.txtboxestt{color: #000;font-family: OpenSans;font-size: 2.3rem;}
+.txtboxestt:hover{color: #000;text-decoration: none;}
+.txtboxpadd{padding-bottom: 3rem;}
+.txtboxestcu{font-family: OpenSans; color: #2FB4F5;padding-bottom: 1.6rem;}
+.btncontd{background-color: #2FB4F5;color: #fff;font-family: OpenSans-Bold;border-style: none;padding: 0.5rem 2.5rem 0.5rem;font-size: 2rem;}
+.margcont{margin-bottom: 3.5rem;}
+.margboxgray{margin-top: 0rem;}
+.padtopesta{padding-top: 2rem;margin-left: 3rem;}
+.margtopimgest{margin-top: 0rem;}
+.margfcblikeest{margin-top: -0.7rem;}
+.txttitesta{font-family: OpenSans;color: #2FB4F5;font-size: 2rem;}
+.txtproduc{font-family: OpenSans; font-size: 2rem;color: #000;}
+.hrd{border-top: 1px solid #5D5D5D !important;}
+.titprod{font-family: OpenSans; font-size: 2.5rem;color:#2FB4F5;line-height: 2.5rem;padding-top: 1rem;padding-bottom: 1rem;}
+.titprod:hover{color:#2FB4F5;text-decoration: none;}
+.modelprod{font-family: OpenSans;font-size: 2rem;color: #808080;margin-top: -1rem;margin-bottom: 1.5rem;}
+.margtxtdesc{margin-top: -1rem;}
+.tagprodu{font-family: OpenSans;color: #000;font-size: 2rem;margin-top: 1rem;}
+.shareprod{font-size: 3rem;color:#2FB4F5;}
+.shareprod:hover{color:#2FB4F5;text-decoration: none;}
+.paddtagsha{padding-top: 2rem;margin-left: 1rem;}
+.btncontt{background-color: #2FB4F5;color: #fff;font-family: OpenSans;border-style: none;padding: 0.5rem 8rem 0.5rem;font-size: 2rem;width: 96%;}
+.txtprecioest{font-family: OpenSans; color:#000;font-size: 2.5rem;margin-bottom: 1rem;}
+.margproducto{margin-top: 2rem;margin-bottom: 2rem;}
+.margfilaprod{margin-bottom: 3rem;}
+.margtopredprod{margin-top:0.4rem;}
+.margtopredesprod{margin-top:1rem;}
+.margbtnadd{margin-left: 2rem;}
+.espaentreproducts{margin-bottom: 3rem;}
+
+.margunsecprod{margin-top: 6rem;}
+.titproduc{font-family: OpenSans;font-size: 3rem;}
+.titmodproduc{font-size: 2rem;color: #BBBBBB;line-height: 1rem;}
+.hrprod{border-top: 1px solid #BBBBBB;}
+.tagproduct{font-size: 1.2rem;font-family: OpenSans-Bold;}
+.margmu11pro{padding-top: 0.5rem;padding-bottom: 0.7rem;}
+.txtproduct{font-size: 1.6rem;color: #000;}
+.precioproduct{margin-top: 7.5rem;color: #000;font-size: 2.2rem;}
+.mrgbtnproduct{margin-top: 1.5rem;}
+.margtopproductored{margin-top: 1.5rem;}
+.aniosgaranti{font-size: 6rem;color: #fff;background-color: #2FB4F5;margin-bottom: -2rem;}
+.aniosgatant{color: #fff;background-color: #2FB4F5;}
+.aniosgatantd{color: #fff;background-color: #2FB4F5;padding-bottom: 1rem;}
+.btncontcu{background-color: #2FB4F5;color: #fff;font-family: OpenSans;border-style: none;padding: 0.5rem 3rem 0.5rem;font-size: 1.5rem;}
+.margbtnficha{margin-top: 2rem;}
+.stockproduct{font-size: 2rem;margin-top: 1rem;}
+.titprodrel{margin-top: 5.5rem;font-family: OpenSans;font-size: 2.3rem;}
+.margesvafa{margin-top: 4rem;font-size: 2.3rem;background-color: #D2D4D3;}
+.paddesvafa{padding-top: 0.8rem;padding-bottom: 0.8rem;}
+.titproducrel{font-size: 2.5rem;color: #2FB4F5;line-height: 3rem;margin-top: 2rem;}
+.titmodproducrel{color: #7F7F7F;font-family: OpenSans;font-size: 2rem;line-height: 1rem;}
+.tagproducrel{font-family: OpenSans;margin-top: 3rem;}
+.margboxprodcrel{margin-bottom: 2rem;}
+.titdimenpro{font-size: 2rem;padding-top: 1.5rem !important;padding-bottom: 1rem !important;color: #000;}
+.txtgenproduc{font-size: 1.6rem;color: #000;}
+.linedatosproduc{line-height: 2.5rem;}
+.margboxprodcreld{margin-bottom: 3rem;}
+.margleftprudcbox{margin-left: -1.5rem;}
+.btnconttpro{background-color: #2FB4F5;color: #fff;font-family: OpenSans;border-style: none;padding: 0.5rem 8rem 0.5rem;font-size: 2rem;width: 97%;}
+
+
+.widhtartban{width: 100%;height: 29rem;}
+.margbotbannart{margin-bottom: 6rem;}
+.titarti{font-family: OpenSans;font-size: 3.5rem;margin-bottom: 2rem;}
+.subtitarti{font-size: 2.3rem;}
+.fecharti{margin-bottom: 1rem;}
+.anchovideoarti{width: 770px;height: 400px;}
+.txtarti{font-size: 1.9rem;line-height: 3rem;margin-bottom: 3.5rem;text-align: justify;}
+.txtartid{font-size: 1.9rem;line-height: 3rem;margin-bottom: 3.5rem;text-align: justify;}
+.fb-comments{width: 727px !important;}
+.margnotiproduc{margin-bottom: 5rem;}
+.twitter-timeline{margin-bottom: 5rem !important;}
+.margredtart{margin-left: 1.5rem;margin-right: 1rem;margin-top: 1rem;}
+
+.marginbannert{margin-left: 18.5rem;}
+.titleblog{margin-top: 8rem;font-family: OpenSans;font-size: 2.3rem;}
+.titlebloghiper:hover{text-decoration: none;}
+.subblog{margin-top: -1rem;font-size: 2rem;}
+.fechblog{font-family: OpenSans;}
+.txtseBlog{font-size: 4rem !important;}
+.imgmu11{margin-top:6rem;}
+.imgmu12{margin-top:3rem;}
+.margbotblog{margin-bottom: 6rem;}
+.margbotblogimg{margin-bottom: 6rem;}
+.pagflech{font-size: 4.5rem !important;color: #2FB4F5 !important;}
+.margbotpaginador{margin-bottom: 9rem;}
+.margbotsecvid{margin-bottom: 2rem;}
+.anchovideoblog{width: 550px;height: 194px;}
+
+.margpagvid{margin-bottom: 3rem;}
+.fb_ltr{width: 88rem;}
+
+.marginbannercu{margin-left: 14.5rem;}
+.contenedorazul{background-color: rgb(49, 97, 130);height: 189px;}
+.contacto{width: 102%;height: auto;}
+.letrasContacto{margin-top: 63px;font-size: 35px;color: white;}
+.redesBlog{display: inline-flex;list-style: none;margin-top: 35px;margin-bottom: 3rem;}
+.redesh2{margin-left: 9rem;}
+.titvideblog{font-size: 2.3rem;font-family: OpenSans;}
+.margcontactred{margin-left: 17rem !important;}
+.margbotredcontact{margin-bottom: 6rem;}
+.labelcontact{color: #696A65;font-size: 2.3rem;}
+.labelcontactpolit{color: #696A65;font-size: 1.3rem;padding-top: 1rem;padding-bottom: 1rem;}
+.martoppoli{margin-top: -0.3rem;}
+.hiperpolicolor{color: #6D9491;text-decoration: underline;}
+.hiperpolicolor:hover{color: #6D9491;text-decoration: underline;}
+.backgroundformcontat{background: #fff;margin-top: 4rem;}
+.paddtopformcontact{padding-top: 2.5rem;}
+#mensaje{height: 10rem;}
+.padenvcontbot{padding-bottom: 2rem;}
+.enviarcont {width: 11rem;background-color: #2FB4F5;border-radius: 3px;color: #fff;font-size: 2rem;padding-top: 0.5rem;padding-bottom: 0.5rem;border: none;}
+.marsecdoscontact{margin-bottom: 9rem;}
+
+.margredtcontact{margin-left: 1.5rem;margin-right: 1rem;margin-top: 1rem;}
+.backgroundbannercu {background-color: rgba(9,57,89, 0.8);background: rgba(9,57,89, 0.8);color: #fff;font-family: OpenSans;padding-top: 10.8rem;padding-bottom: 10.8rem;font-size: 4rem;width: 48.5rem !important;}
+.marginbannersiete{margin-left: 3.9rem;}
+#espe{background-color: #ABB2B9;}
+.pcontact{text-align: justify; margin-top: 70px;font-size: 1.9rem;}
+.pcontact2{text-align: justify; margin-top: 35px;font-size: 1.9rem;}
+
+
+.margaviso{margin-top: 3rem;margin-bottom: 2rem;}
+.txtaviso{font-family: OpenSans;text-align: justify;font-size: 1.9rem;margin-bottom: 3rem;}
+.titaviso{font-family: OpenSans;font-size: 3rem;}
+.aaviso{color: #fff;text-decoration: none;}
+.aaviso:hover{color: #fff;text-decoration: none;}
+.mailaviso{color: #2FB4F5;text-decoration: none;}
+.mailaviso:hover{color: #2FB4F5;text-decoration: none;}
+
+.div-gracias{font-family: OpenSans;color: #2FB4F5;font-size: 3rem;margin-top: 6rem;margin-bottom: 3rem;}
+.div-gracias-two{font-family: OpenSans;font-size: 2.3rem;margin-bottom: 6rem;text-align: justify;}
+.anoscontact{color: #000;text-decoration: none;}
+.anoscontact:hover{color: #000;text-decoration: none;}
+.txtpcot{font-size: 1.9rem !important;font-family: OpenSans;}
+.margbotmob{margin-bottom: 2rem;}
+
+.marginicios{margin-top: 0rem;margin-bottom: 6rem;}
+.itema{padding-right: 4.5rem !important;margin-top: 1rem;}
+.itemb{padding-left: 5rem !important;margin-top: 1rem;}
+.totpag{font-family: OpenSans;color: #000;font-size: 2.3rem;}
+.puntoblancof{color: #fff;}
+/*.txttred2{margin-top: 1rem;margin-bottom: 2rem;margin-left: 0rem;}*/
+
 @media screen and (min-width:1200px){
-  .txttre {
-    margin-top: 1.5rem;
-    margin-bottom: 1.9rem;
-  }
-  .marginver{margin-top: 5.6rem;}
-
-  .artwidth{width: 18rem;
-margin-left: 1rem;}
-
+.txttre {margin-top: 1.5rem;margin-bottom: 1.9rem;}
+.txttred{margin-top: 1.5rem;margin-bottom: 1.9rem;}
+.txttredd{margin-top: 1.5rem;margin-bottom: 1.9rem;}
+.marginver{margin-top: 5.6rem;}
+.marginverd{margin-top: 5.6rem;}
+.artwidth{width: 18rem;margin-left: 1rem;}
+.artwidthd{width: 18rem;margin-left: 1rem;}
  .marginmefooter{margin-left: -2rem;}
  .marginmenfo{margin-left: 12rem !important;}
- .margindiesi {
-    margin-left: 16rem !important;
-  }
+ .margindiesi {margin-left: 16rem !important;}
  .margmuu{width: 31rem !important;}
  .margmud{width: 30rem !important;}
  .margmut{width: 30rem !important;}
- .margnuobjS{margin-left: 6rem;}
- .paddmuc {width: 48rem !important;height: 100VH !important;}
+ .margnuobjS{margin-left: 0rem;}
+ .paddmuc {width: 48rem !important;height: 47rem !important;}
  .txtopcing {padding: 6rem 20rem 26rem 22rem;}
- ..margmud{margin-left: 1rem;margin-right: 1rem;}
+ .margmud{margin-left: 1rem;margin-right: 1rem;}
+ .muochod{margin-left: 0rem;width: 120%;}
+ .margredt{margin-left: 1.5rem;margin-right: 1rem;margin-top: 0.8rem;}
+ .margredtp{margin-left: 0.5rem;margin-right: 0.5rem;margin-top: 1.1rem;}
+ .margredtmob{margin-top: 0rem;margin-left: 1rem;margin-right: 0.7rem;}
+ .margredtt{margin-top: 0.7rem;}
+ .imgmuesiete{margin-top: 5rem;}
+ .imgmuesietemob{margin-top: 5rem;}
+ .anchovideoarti{width: 630px;height: 400px;margin-bottom: 3.5rem;}
+ .margincat {margin-bottom: 1.3rem;}
+ .margincat1 {margin-bottom: 0rem;}
+ .margredblog{margin-left: -1rem !important;}
+ .margredblogg{margin-left: -1rem !important;}
+ .margcontactred {margin-left: 11rem !important;}
+ .marctithome{width: 37rem !important;}
+ .marginoch{margin-left: 1.3rem !important;}
+ .margredhome {margin-left: 0rem;}
+ .backgroundblue{height: 69rem;}
+ .backgroundgrayt{height: 69rem;}
+ .enviar{margin-left: 0.5rem;}
+ .edificiosfondo{background-image: url(../../../fileimages/nosotros/objetivo.jpg);width: 100VH;height: 60.5rem;margin-bottom: 8rem;}
+ .capaedificios{height: 64.5rem;}
+ .imgmuc{margin-left: 3rem !important;}
+ .imgheightnos {height: 64.5rem;}
+ .btncontt{padding: 0rem 4rem 0rem;}
+ .btnconttpro{padding: 0rem 4rem 0rem;}
+ .anchovideoblog {width: 477px;height: 194px;}
+.margredtart{margin-top: 1rem;}
+.txtnu{font-size: 3rem;}
+.widthenu{width: 14rem !important;margin-left: 0rem;}
+.margend {margin-right: -1rem;}
+/*.imgcv {width: 100%;}*/
+.marginver1{margin-top: -3.5rem;}
+.anchovideohome{width: 87%;height: 300px;}
+.anchovideo {width: 611px;height: 200px;}
+.sincir{margin-top: 2rem;}
+.margnleftslide{margin-left: -5rem;}
+.titobj{padding-top: 0rem;margin-top:2.5rem;padding-bottom: 0rem;}
+.paddmuc {width: 64rem !important;height: 47rem !important;}
+.widhtfrase {}
+.txtest {margin-left: 2rem;}
+.txtestac {margin-left: 2rem;}
+.containerpro1{width: 1226px !important;}
+.mgrtxtproduc{margin-left: 3rem;}
+.imgmu11 {width: 31.5rem;}
+.imgmu12{width: 31.5rem;}
+.redesh2 {margin-left: 5rem;}
+.margredblog {margin-left: 1rem !important;}
+.margredblogg{margin-left: 1rem !important;}
+.anchovideoblogart { width: 432px;height: 17rem;}
+.paddingtres{padding-top: 1rem;}
+.paddingtres1{padding-top: 1rem;}
+.marginverd {margin-top: 4.6rem;}
+.imgart1{text-align: left;}
+.txtfoocent{text-align: left;}
+.txtveintcinc {text-align: left;}
+.txtfoocent{text-align: left;}
+.txtveintseis {text-align: left;}
+.txtveintsiet {text-align: left;}
+.pcontact{text-align: justify; margin-top: 70px;font-size: 1.9rem;}
+.pcontact2{text-align: justify; margin-top: 35px;font-size: 1.9rem;}
 }
 
-@media screen and (min-width:1500px){
-  .margend {
-    margin-right: -5rem !important;
-  }
-  .txtci {
-    margin-left: 10.2rem;
-  }
-  .container {
-    width: 1200px !important;
-  }
-  .margincu {
-    margin-left: 38rem;
-  }
-  .imgu {
-    margin-left: -4.2rem;
-  }
-  .imgcarousel{
-    width: 100%;
-  }
-  .sincir{
-    width: 100%;
-  }
 
-  .cuadrosmargen{
-    margin-left: -1.5rem !important;
-    margin-bottom: 5rem;
-  }
 
+@media screen and (min-width:1499px){
+  .edificiosfondo{background-image: url(../../../fileimages/nosotros/objetivo.jpg);width: 100VH;height: 60.5rem;margin-bottom: 8rem;}
+  .margend { margin-right: -4rem !important;}
+  .txtci {margin-left: 10.2rem;}
+  .container {width: 1200px !important;}
+  .imgu {margin-left: -4.2rem;}
+  .imgcarousel{width: 100%;}
+  .imggracias{width: 100%;}
+  .imgcarouseld{width: 100%;}
+  .imgcarouselt{ width: 100%;}
+  .imgcarouselc{width: 100%;}
+  .sincir{width: 100%;margin-top: 2rem;}
+  .cuadrosmargen{margin-left: -1.5rem !important;margin-bottom: 5rem;}
+  .margincu {margin-left: 44rem !important;}
   .anchovideo {
     width: 539px;
   }
@@ -286,14 +558,14 @@ margin-left: 1rem;}
     margin-bottom: 1.4rem;
   }
 
-  .mapatam{
-    width:800px;height:318px !important;
+  .margincat1 {
+    margin-bottom: 1.4rem;
   }
 
-  .mapatam {
-    width: 1000px;
-    height: 319px;
+  .mapatam{
+    width:100% !important;height:270px !important;
   }
+
 
 
 
@@ -315,7 +587,7 @@ margin-left: 1rem;}
   }
 
   .margindiesi {
-    margin-left: 19rem !important;
+    margin-left: 26rem !important;
   }
 
   .nav .dropdown .dropdown-menu {
@@ -325,12 +597,12 @@ margin-left: 1rem;}
   .fondou{width: 5% !important;}
 
   .widthenu{
-    width: 19rem !important;;
+    width: 16rem !important;;
   }
 
-   .colorear{width: 45rem !important;font-size: 2.2rem;padding-top: 7rem;padding-bottom: 7rem; }
+   .colorear{width: 45rem !important;font-size: 2.2rem;padding-top: 7rem;padding-bottom: 7rem;height: 100%;}
    .carousel-indicators {left: 16% !important;}
-   .colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8.9rem;padding-bottom: 8.9rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
+   .colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8.9rem;padding-bottom: 8.9rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans;font-size: 2.2rem;height: 100%;}
    .marginformfoo{margin-left: -5rem;}
    .anchocuadro{width: 33rem !important;height: 31rem;}
   #image {height: 28rem;}
@@ -344,110 +616,287 @@ margin-left: 1rem;}
   .marginmefooter{margin-left: 0rem;}
   .marginformfoo {margin-left: 2rem;}
   .marginbarraazul{margin-left: 4rem;}
-  .txttre {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-  }
-    .marginver{margin-top: 0rem;}
-
+  .txttre{margin-top: 0rem;margin-bottom: 0rem;}
+  .txttred{margin-top: 0rem;margin-bottom: 0rem;}
+  .txttredd{margin-top: 1rem;margin-bottom: 1rem;}
+  .marginver{margin-top: 0rem;}
+  .marginverd{margin-top: 0rem;}
+  .muochod{margin-left: 0rem;}
+  .margredt{margin-left: 0rem;margin-right: 0rem;}
+.imgart1{text-align: left;}
+  .txtfoocent{text-align: left;}
+  .txtveintcinc {text-align: left;}
+  .txtfoocent{text-align: left;}
+  .txtveintseis {text-align: left;}
+  .txtveintsiet {text-align: left;}
+  .pcontact{text-align: justify; margin-top: 70px;font-size: 1.9rem;}
+  .pcontact2{text-align: justify; margin-top: 35px;font-size: 1.9rem;}
+  /*.imgcv {width: 100%;height: 31rem;}*/
 }
 
 @media screen and (min-width:1824px){
-   .margindiesioch {margin-left: 33rem !important;}
-
-  .enviar {margin-left: -9.7rem;}
-
-  .anchovideo {
-    width: 540px;
-  }
-  .imgu { margin-left: 11rem;}
-
-  .margincu {
-    margin-left: 43rem;
-  }
-  .txtci {
-    margin-left: 5.2rem !important;
-  }
+  .margindiesioch {margin-left: 31rem !important;}
+  .enviar {margin-left: -8rem;}
+  .anchovideo{width: 818px;margin-left: 3rem;}
+  .imgu { margin-left: 10rem;}
+  .imguno{margin-left: -10.5rem;}
+  .margincu {margin-left: 86rem !important;}
+  .txtci {margin-left: 24.2rem !important;}
   .fondou{width: 4% !important;}
-
-  .margend {
-    margin-right: -8rem !important;
-  }
-
-  .widthenu{
-    width: 22rem !important;
-  }
-
-  .colorear{width: 45rem !important; padding-top: 6.6rem;font-size: 2.2rem;padding-bottom: 6.6rem; }
-
-  .carousel-indicators {
-    left: 17% !important;
-  }
-
-   .colorear2 {
-    width: 45rem !important;
-    font-size: 2.2rem;
-    padding-top: 8.9rem;
-    padding-bottom: 8.9rem;
-    background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans-Bold;font-size: 2.2rem;}
-
-  .anchocuadro{
-    width: 33rem !important;
-    height: 31rem;
-  }
-  .marginoch {
-    margin-left: 10.5rem !important;
-  }
-
-  #image {
-    height: 29rem;
-  }
-
-  #image2 {
-    height: 29rem;
-  }
-
-  #image3 {
-    height: 29rem;
-  }
-
-  .marginsie {
-    margin-left: 28rem !important;
-  }
-
-  .altoimg {
-    max-height: 59rem;
-  }
-
-  .txtsei {
-    margin-top: -16rem;
-  }
-
-  .carousel-indicators2 {
-  margin-left: 2% !important;
-  }
-
+  .margend {margin-right: -7rem !important;}
+  .widthenu{width: 20rem !important;margin-left: 0rem;}
+  .colorear{width: 45rem !important; padding-top: 7.2rem;font-size: 2.2rem;padding-bottom: 7.2rem;height: 100%;}
+  .carousel-indicators {left: 17% !important;}
+  .colorear2 {width: 45rem !important;font-size: 2.2rem;padding-top: 8rem;padding-bottom: 8rem;background-color: rgba(9,57,89, 0.8);color: #fff;font-family:OpenSans;font-size: 2.2rem;;height: 100%;}
+  .anchocuadro{width: 33rem !important;height: 31rem;}
+  .marginoch {margin-left: 10rem !important;}
+  #image {height: 29rem;}
+  #image2 {height: 29rem;}
+  #image3 {height: 29rem;}
+  .marginsie {margin-left: 0rem !important;}
+  .altoimg {max-height: 59rem;}
+  .txtsei {margin-top: 0rem;}
+  .carousel-indicators2 { margin-left: 2% !important;}
   .marginfooter {margin-left: 33.5rem !important;}
   .marginmefooter{margin-left: -10rem;}
   .marginformfoo {margin-left: -5rem;}
   .marginmenfo {margin-left: 30rem !important;}
-  .cuadrosmargen {margin-left: 6rem !important;margin-bottom: 5rem;}
-  .mapatam {width: 1000px;height: 285px !important;}
-  .margindiesi {margin-left: 8rem !important;}
-  .marginbarraazul{margin-left: 13rem;}
-  .widhtazul{width: 39% !important;}
-  
-   .txttre {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-  }
-    .marginver{margin-top: 0rem;}
+  .cuadrosmargen {margin-left: 0rem !important;margin-bottom: 5rem;}
+  .mapatam {width: 100% !important;height: 241px !important;}
+  .margindiesi {margin-left: 15rem !important;}
+  .marginbarraazul{margin-left: 23.5rem;}
+  .widhtazul{width: 33% !important;}
+
+  .txttre{margin-top: 0rem;margin-bottom: 0rem;margin-left: 5rem;}
+  .txttred{margin-top: 0rem;margin-bottom: 0rem;margin-left: 0rem;}
+  .txttredd{margin-top: 1rem;margin-bottom: 1rem;margin-left: 5rem;}
+  .marginver{margin-top: 0rem;}
+  .marginverd{margin-top: -0.1rem;}
   .margmut{margin-left: 2rem;}
   .margmud{margin-left: 0.5rem;}
-  .margincat{margin-bottom: 0.6rem;}
+  .margincat{margin-bottom: 1.5rem;}
+  .margincat1{margin-bottom: 1.5rem;}
   .margmuu {width: 37rem !important;}
   .margmud{width: 37rem !important;}
   .margmut{width: 37rem !important;}
-  .paddmuc {width: 58.6rem !important;max-height: 57VH !important;}
+  .paddmuc {width: 58.6rem !important;max-height: 47rem  !important;}
   .txtopcing {padding: 9rem 20rem 26rem 22rem;}
+
+  .margredblog{margin-left: 8rem !important;}
+  .margredblogg{margin-left: 31% !important;}
+  .margcontactred {margin-left: 16rem !important;}
+  .marginse{margin-top: 15rem;}
+  .margredhome {margin-left: 2rem;}
+  .backgroundblue{height: 65rem;}
+  .backgroundgrayt{height: 65rem;}
+  .margredt{margin-top: 0.7rem;}
+  .margredtp{margin-top: 1.1rem;}
+  .margredtt{margin-top: 0.7rem;}
+  .edificiosfondo{background-image: url(../../../fileimages/nosotros/objetivo.jpg);width: 100VH;height: 47.5rem;margin-bottom: 8rem;}
+  /*
+  .capaedificios{background-color: rgba(209,211,211, 0.9);background: rgba(209,211,211, 0.9);width: 100VH;height: 60.5rem;}*/
+  .imgheightnos {height: 60.5rem;}
+  .margredtmob{margin-top: 0.1rem;}
+  .btncontt{background-color: #2FB4F5;color: #fff;font-family: OpenSans;border-style: none;padding: 0.5rem 7rem 0.5rem;font-size: 2rem;width: 96%;}
+  .btnconttpro{background-color: #2FB4F5;color: #fff;font-family: OpenSans;border-style: none;padding: 0.5rem 8rem 0.5rem;font-size: 2rem;width: 97%;}
+  .slidegrand{width: 1622px !important;}
+  .anchovideoblog {width: 590px;height: 194px;}
+  .imgcarousel{background-image: url(../../../fileimages/home/wallpaperh.jpg);width: 100% !important;height: 35rem;background-position: -7rem;}
+  .imggracias{background-image: url(../../../fileimages/home/wallpaperh.jpg);width: 100% !important;height: 35rem;background-position: -30rem;}
+  .imgcarouseld{background-image: url(../../../fileimages/home/wallpaperhd.jpg);width: 100% !important;height: 35rem;background-position: -13rem;}
+  .imgcarouselt{background-image: url(../../../fileimages/home/wallpaperht.jpg);width: 100% !important;height: 35rem;background-position: 1rem;}
+  .imgcarouselc{background-image: url(../../../fileimages/home/wallpaperhc.jpg);width: 100% !important;height: 35rem;background-position: 1rem;}
+  .margenu {margin-left: 1rem;}
+  .imgcv{height: 31rem;border-radius: 2rem;margin-top: 4rem;margin-bottom: 4rem;}
+  .margcuadrosdos{margin-bottom: 2rem;}
+  .acuadros{font-family: OpenSans;color: #2FB4F5; font-size: 2.5rem;}
+  .acuadros:hover{font-family: OpenSans;color: #2FB4F5; font-size: 2.3rem;}
+  .tamcontainer{width: 1430px !important;}
+  .anchovideohome{width: 87%;height: 563px;}
+  .artwidth{width: 23rem;margin-left: 4rem;margin-top: 1rem;}
+   .artwidth{width: 23rem;margin-left: 0rem;margin-top: 1rem;}
+  .margtitnoti{margin-left: 5rem;}
+  .marginver1{margin-left: 5rem;margin-top: 0.5rem;}
+  .margnuobjS{margin-left: 0rem;}
+  .imgmuesiete{margin-top: 0rem;}
+  .imgmuesietemob{margin-top: 4rem;}
+  .anchovideoblogart{width: 536px;}
+  .containerpro {width: 1443px !important;}
+  .mgrtxtproduc{margin-left: 3rem;}
+  .margleftbloghome{margin-left: 1.5rem;}
+  .margnleftslide{margin-left: 0rem;}
+  .widhtfrase{}
+  .txtest{margin-left: 2.8rem ;}
+  .txtestac{margin-left: 2.8rem ;}
+  .redesh2{margin-left: 9rem;}
+  .titobj {margin-top: 2.5rem;}
+  .blogwidth{width: 1255px !important;}
+  .margbotblog {margin-left: 4.5rem;}
+  .imgart1{text-align: left;}
+  .txtfoocent{text-align: left;}
+  .txtveintcinc {text-align: left;}
+  .txtfoocent{text-align: left;}
+  .txtveintseis {text-align: left;}
+  .txtveintsiet {text-align: left;}
+  .pcontact{text-align: justify; margin-top: 70px;font-size: 1.9rem;}
+  .pcontact2{text-align: justify; margin-top: 35px;font-size: 1.9rem;}
+  .txttred2{margin-top: 1rem;margin-bottom: 2rem;margin-left: 0rem;}
 }
+
+@media screen and (max-width: 800px){
+    .imgml {background-position-x: center;height: 23rem;}
+    .anchovideohome{width: 100%;}
+    .anchovideo {width: 100%;}
+    .paddingdos {padding-bottom: 0rem;}
+    .txtqui {margin-bottom: 1rem;text-align: left;}
+    .imgcv{background-position-x: center;height: 23rem;}
+    .centrardivd {left: 0%;right: 0%;}
+    .padtitprodhome {font-size: 2.5rem;}
+    .imgmpe{;background-position-x: center;height: 23rem;}
+    .backgroundblue {height: 75.5rem;}
+    .backgroundgrayt {height: 102rem;}
+    .imgart1{text-align: left;}
+    .carousel-indicators2{width: 100% !important;text-align: center !important;margin-left: -53% !important;}
+    .txtveintu {text-align: justify;}
+    .marginqui {text-align: center;}
+    .backgroundbluedos {height: 30rem;}
+    .margindiesioch {margin-left: 0rem;text-align: center;}
+    .txtcenteruno{text-align: center;}
+    .margindiesi {text-align: center;}
+    .slidegrand{width: 100%;}
+    .imgcarousel{width: 100% !important;}
+    .imggracias{width: 100% !important;}
+    .imgcarouseld{width: 100% !important;}
+    .imgcarouselt{width: 100% !important;}
+    .imgcarouselc {width: 100% !important;}
+    .flecha {margin-left: 0;}
+    .colorear{width: 100% !important;font-size: 2rem; padding-top: 6rem;padding-bottom: 6rem; text-align: justify;height: 100%;}
+    .colorear2{width: 100% !important;font-size: 2rem;height: 100%;}
+    .carousel-indicators {left: 17%;width: 100% !important;margin-left: -52px;}
+    .marginver1{text-align: center;}
+    .paddingtres1{text-align: center;}
+    .titnos {padding-left: 0rem; padding-right: 0rem;}
+    .txtveintcuat {padding-top: 3rem;padding-left: 0rem;text-align: center;}
+    .txtveintcinc {text-align: center;padding-left: 0rem;}
+    .txtfoocent{text-align: center;}
+    .txtveintseis {text-align: center;}
+    .txtveintsiet {text-align: center;}
+    .marginmefooter{margin-top: 2rem;}
+    .widhtinput{width: 100% !important;}
+    .enviar{text-align: center;}
+    .margbotfooter{margin-bottom: 2rem;}
+    .mapatam {width: 100%;}
+    .anchnosvid {width: 100%;}
+    .marginbanner {margin-left: 0rem; text-align: center;}
+    .margvidnos {margin-bottom: 0rem;}
+    .txtadi {text-align: left;}
+    .margmuu{width: 100%;margin-bottom: 1rem;padding: 15px;}
+    .margmud{width: 100%;margin-bottom: 2.5rem;}
+    .margmut{width: 100%;}
+    .margincua {margin-top: 1rem;margin-bottom: 4rem;}
+    .edificiosfondo {width: 100%;margin-bottom: 3rem;}
+    .paddmuc {padding-left: 0rem;width: 100%;}
+    .margnuobjS{margin-left: 0rem !important;}
+    .txtopcing {padding: 1rem 0.5rem 1rem 0.5rem;}
+    .txtobj {text-align: center;}
+    .txtobj2{text-align: center;}
+    .txtobj3{text-align: center;}
+    .txtcomp {text-align: left;}
+    .margcompro {margin-bottom: 3rem;}
+    .titcomp {margin-bottom: 2rem;}
+    .imgning {height: auto;margin-bottom: 3rem;}
+    .caping {height: auto;}
+    .txtopcingd {margin-bottom: 0rem;text-align: left;}
+    .widhtfrase {}
+    .frasenos {margin-top: 2rem;margin-bottom: 2rem;}
+    .margredt {margin-top: 0.7rem;}
+    .margredtt{margin-top: 0.7rem;}
+    .imgmu11{width: 100%;}
+    .titleblog {margin-top: 2rem;font-size: 2.5rem;}
+    .margbotblog {margin-bottom: 3rem;}
+    .imgmu12 {margin-top: 0rem;width: 100%;}
+    .backgroundbannerd {width: 100% !important;height: 100%;}
+    .marginbannert {margin-left: 0rem;text-align: center;}
+    .pagination {margin: 0px 0 0px;}
+    .pagination li a {width: 34px !important;}
+    .anchovideoblog {width: 100%;}
+    .margbotpaginador {margin-bottom: 1rem;}
+    .margpagvid {margin-bottom: 1rem;}
+    .imgbannerart {width: 100%;margin-top: 0rem;}
+    .txtarti {text-align: left;}
+    .twitter-timeline {margin-bottom: 3rem !important;}
+    .titarti {margin-top: 3rem;}
+    .anchovideoarti {width: 100%;}
+    .txtartid {margin-top: 3.5rem;text-align: left;}
+    .margredtart {margin-left: 0rem;margin-right: 0rem;}
+    .anchovideoblogart {width: 100%;}
+    .backgroundblueds{background-color: #2FB4F5;height: 57.5rem;margin-top: 3rem;}
+    .backgroundgraytdos{background-color: #D2D4D3;height: 111rem;}
+    .paddingtres {padding-top: 1rem;}
+    .imgbannerconta {width: 100%;background-position: -80rem;margin-top:13rem;}
+    .marginbannercu {margin-left: 0rem;text-align: center;}
+    .pcontact{text-align: left; margin-top: 30px;}
+    .redesh2{margin-left: 2.5rem;}
+    .backgroundbanner{width: 100% !important;height: 100%;padding-top: 11rem;padding-bottom: 11rem;}
+    .imgbannernos {width: 100%;margin-top: 0rem;}
+    .marginbannerd {margin-left: 0rem;text-align: center;}
+    .imgbannermob {width: 100%;background-position: 52rem;margin-top: 0rem;}
+    .margboxgray{margin-top: 0rem;}
+    .margboxgray {margin-top: 0rem;}
+    .titest{margin-top: 3rem;}
+    .margtopest {padding-top: 1rem;margin-left: 0rem;}
+    .padtopesta {padding-top: 2rem;margin-left: 0rem;}
+    .txtest{text-align: left;}
+    .txtestac {text-align: left;}
+    .backgroundbannerdresp{    width: 100% !important;height: 100%;padding-top: 14rem;padding-bottom: 14rem;}
+    .paddingres{padding: 0px;}
+    .muochod{width: 100%;margin-bottom: 3rem;}
+    .caption {font-size: 10px;}
+    .fff > div > a > img{width: 50px;}
+    .fff{width: 5rem}
+    .sincir{padding-left: 0px;display: inline-flex;width: 100%;}
+    .carousel-control.left:hover{-webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)}
+    .carousel-control.left{-webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)}
+    .marginse{margin-top: 6rem;}
+    .carousel-indicators2{bottom: -5rem !important;}
+    .col-md-1.fondou{margin-top: -2rem;}
+    .col-md-4.widhtazul{background-color: #2FB4DA;font-size: 16px;margin-top: -.5rem;padding-left: 12rem;}
+    .imguno{padding-top: 1.5rem;padding-bottom: 2rem;}
+    div#myCarousel{padding-top: 0rem;}
+    .col-md-4.margent{padding-left: 5rem;}
+    .col-md-6.imgmargin{padding-left: 0rem;text-align: center;}
+    div#myCarousel > ol.carousel-indicators{left: 33% !important;}
+    .col-md-10.txttre{padding-bottom: 2rem;padding-top: 2rem;}
+    .backgroundhead{padding-left: 0px !important;padding-right: 0px !important;}
+    .col-md-6.txtu.marginbarraazul {padding-left: 0rem;font-size: 13px;margin-left: 0rem;width: 100%;height: 5rem;text-align: center;}
+    .imgbannerblog{margin-top: 0rem;}
+    .paddtagsha {margin-left: 0rem;padding-top: 0rem;}
+    .margbtnadd {margin-left: 0rem;}
+    .btncontt {padding: 0rem 3rem 0rem;width: 100%;}
+    .imgbannercont {width: 100%;background-position: 46rem;}
+    .backgroundbannerdvisual{width: 100%;height: 100%;padding-top: 11rem;padding-bottom: 11rem;}
+    .margnvisual{margin-top: 0rem;}
+    .txtci {margin-left: 0rem;}
+    .marginbannersiete {margin-left: 0rem;}
+    .imgbannermate {width: 100%;margin-top: 0rem;}
+    .backgroundbannercu {padding-top: 7rem;padding-bottom: 7rem;font-size: 4rem;width: 100% !important; height: 100%;}
+    .titprodrel {margin-top: 5rem;text-align: center;}
+    .titproduc {text-align: center;}
+    .precioproduct {margin-top: 3.5rem;text-align: center;}
+    .margunsecprod {margin-top: 3rem;}
+    .btnconttpro {padding: 0.5rem 4rem 0.5rem;width: 100%;}
+    .margproducrel{text-align: center;}
+    .navmargn{margin-top: 2rem;}
+    .imguno {width: 8rem;}
+    .txtd {text-align: center;color: #2FB4F5;font-size: 14px;}
+    .txtd:hover{color: #fff;}
+    .mrgnbascket{margin-left: 2rem;}
+    .menuhover{border-left-width: thin;}
+    .menuhover:hover{color: #ffffff;background:#2FB4F5;}
+    .margbandera{margin-left: 1rem;}
+    .navbar-nav {margin: 5.75px 0px;background-color: #2FB4F5;}
+    .nav>li{padding-right: 8px;padding-left: 20px;margin-top: 12px;}
+    .margimghome{margin-top:0rem;}
+    .margimgcotiza {margin-left: 0rem !important;width: 100%;}
+}
+

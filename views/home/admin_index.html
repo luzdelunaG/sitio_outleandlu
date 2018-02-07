@@ -1,0 +1,29 @@
+<div class="div-t table-responsive">
+<table class="table-striped" data-class="table table-bordered table-hover table-striped"
+       data-toggle="table"
+       data-url="{{ Html.Link('api/home/getdatos','',{'action':true}) }}"
+       data-pagination="true"
+       data-query-params="queryParams"
+       data-side-pagination="server"
+       data-page-list="[15, 30, 50, 100, 200]"
+       data-search="true"
+       data-show-toggle="true"
+       data-show-columns="true"
+       data-sort-name="orden"
+       data-sort-order="asc"
+       data-page-size="15"
+       data-pagination-first-text=false
+       data-pagination-pre-text=false
+       data-pagination-next-text=false
+       data-pagination-last-text=false
+       id="home_table"
+       >
+    <thead>
+         <tr>
+            <th  class="col-sm-1" data-sortable="true" data-field="id_home"><div class="titulo-th">ID</div></th>
+            <th  class="col-sm-10" data-sortable="true" data-field="titulo_seo"><div class="titulo-th">Título</div></th>
+            <th class="col-sm-1 ajuste-xol-1" data-field="action" data-formatter="actionFormatter" data-events="actionEvents"><div class="titulo-th">Acciones</div></th>
+        </tr>
+    </thead>
+</table>
+</div>

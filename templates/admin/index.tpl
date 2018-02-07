@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="/templates/admin/fonts/">
         <script src="http://cdn.jsdelivr.net/timepicker.js/latest/timepicker.min.js"></script>
         <link href="http://cdn.jsdelivr.net/timepicker.js/latest/timepicker.min.css" rel="stylesheet"/>
-        
+
     </head>
     <body data-referer="{{referer}}">
         <nav  class="navbar navbar-info navbar-fixed-top barra" id="barra">
@@ -18,7 +18,7 @@
             </div>
             <div id="navbar" class"navbar-collapse collapse">
                 <div id= "btnSalir" class="navbar-right btn-salir">{{Html.Link("usuarios/salir","<i class='fa fa-sign-out'></i> Cerrar sesión ", {class:""})}}</div>
-                <div class=" navbar-right img-logo2">{{ Html.Img("templates/admin/logoSemi.svg", {"class":"img-logo2"}) }}</div>
+                <div class=" navbar-right img-logo2">{{ Html.Img("templates/admin/Lean Outlet.png", {"class":"img-logo2"}) }}</div>
             </div>
         </nav>
         <div id="listones">
@@ -40,142 +40,63 @@
                                 <a>{{"<i class='fa fa-pencil-square-o'></i> Blog"}}</a>
                                 <ul class="submenu"  id="sumenu">
                                     <li class="item-submenu">
-                                        {{ Html.Link("blogs","<i class='fa fa-pencil-square-o'></i>Vista Blog")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("blog","<i class='fa fa-commenting'></i> Artículos")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("categoriasblog","<i class='fa fa-folder'></i> Categorías ")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("medios","<i class='fa fa-paper-plane'></i> Medios ")}}
+                                        {{ Html.Link("articulo","<i class='fa fa-commenting'></i> Artículos")}}
                                     </li>
                                 </ul>
                             </li>
-                            <li {{ Control == "Voluntarios" ? 'class="activo"' : '' }}>
-                                {{ Html.Link("voluntarios/index","<i class='fa  fa-group'></i> Voluntarios")}}
-                            </li>
-                            <li {{ Control == "Eventos" ? 'class="activo"' : '' }}{{ Control == "Slider"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-calendar'></i> Eventos"}}</a>
+                            <li {{ Control == "Inicio" ? 'class="activo"' : '' }}{{ Control == "Categorias"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
+                                <a>{{"<i class='fa fa-user'></i> Usuarios"}}</a>
                                 <ul class="submenu"  id="sumenu">
                                     <li class="item-submenu">
-                                        {{ Html.Link("veventos/index","<i class='fa fa-calendar'></i> Vista Eventos")}}
+                                        {{ Html.Link("inicio/index","<i class='fa fa-user'></i> Usuarios")}}
                                     </li>
+                                </ul>
+                            </li>
+                            <li {{ Control == "Producto" ? 'class="activo"' : '' }}{{ Control == "Categorias"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
+                                <a>{{"<i class='fa fa-cart-plus'></i> Producto"}}</a>
+                                <ul class="submenu"  id="sumenu">
                                     <li class="item-submenu">
-                                        {{ Html.Link("eventos/index","<i class='fa fa-sliders'></i> Slider Eventos")}}
+                                        {{ Html.Link("producto/index","<i class='fa fa-cart-plus'></i> Productos")}}
+                                    </li>
+                                </ul>
+                            </li>
+                             <li {{ Control == "Venta" ? 'class="activo"' : '' }}{{ Control == "Categorias"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
+                                <a>{{"<i class='fa fa-money'></i> Venta"}}</a>
+                                <ul class="submenu"  id="sumenu">
+                                    <li class="item-submenu">
+                                        {{ Html.Link("venta/index","<i class='fa fa-money'></i> Ventas")}}
                                     </li>
                                 </ul>
                             </li>
                             <li {{ Control == "Home" ? 'class="activo"' : '' }}{{ Control == "Slider"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
                                 <a>{{"<i class='fa fa-home'></i> Home"}}</a>
                                 <ul class="submenu"  id="sumenu">
+                                 
+                                     <!--<li class="item-submenu">
+                                        {{ Html.Link("sliderhome/index","<i class='fa fa-sliders'></i> Slider del Home")}}
+                                    </li>-->
+                                    <!--<li class="item-submenu">
+                                        {{ Html.Link("destacados/index","<i class='fa fa-sliders'></i> Slider Productos Destacados")}}
+                                    </li>-->
                                     <li class="item-submenu">
-                                        {{ Html.Link("home/index","<i class='fa fa-home'></i> Vista Home")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("sliderhome/index","<i class='fa fa-sliders'></i> Slider Home")}}
-                                    </li>
-                                </ul>
-                            </li>
-                            <li {{ Control == "Nosotros" ? 'class="activo"' : '' }}{{ Control == "Consejo"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-suitcase'></i> Nosotros"}}</a>
-                                <ul class="submenu"  id="sumenu">
-                                    <li class="item-submenu">
-                                        {{ Html.Link("nosotros/index","<i class='fa  fa-group'></i> Vista Nosotros")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("consejo/index","<i class='fa fa-user-plus'></i> Consejo Directivo ")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("lideres/index","<i class='fa fa-user-plus'></i> Líderes de Comisión ")}}
-                                    </li>
-                                     <li class="item-submenu">
-                                        {{ Html.Link("slidertesti/index","<i class='fa fa-sliders'></i> Slider de Voluntarios")}}
+                                        {{ Html.Link("testimonios/index","<i class='fa fa-sliders'></i> Slider de Casos de Éxito")}}
                                     </li>
                                 </ul>
                             </li>
-                            <li {{ Control == "Conoce" ? 'class="activo"' : '' }}{{ Control == "Programas"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-rocket'></i> Programas"}}</a>
+                            <li {{ Control == "Videos" ? 'class="activo"' : '' }}{{ Control == "Comisiones"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
+                                <a>{{"<i class='fa fa-video-camera'></i> Multimedia"}}</a>
                                 <ul class="submenu"  id="sumenu">
                                     <li class="item-submenu">
-                                        {{ Html.Link("conoce/index","<i class='fa fa-rocket'></i> Vista Programas")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("programas/index","<i class='fa fa-sliders'></i> Slider de programas")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("convocatorias/index","<i class='fa fa-bullhorn'></i> Convocatorias")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("testi/index","<i class='fa fa-sliders'></i> Slider de Testimonios")}}
-                                    </li>
-                                </ul>
-                            </li>
-                            <li {{ Control == "Involucrate" ? 'class="activo"' : '' }}{{ Control == "Testivoluntarios"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-child'></i> Involúcrate"}}</a>
-                                <ul class="submenu"  id="sumenu">
-                                    <li class="item-submenu">
-                                       {{ Html.Link("involucrate/index","<i class='fa  fa-child'></i> Vista Involúcrate")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("testivoluntarios/index","<i class='fa fa-sliders'></i> Slider de Testimonios")}}
-                                    </li>
-                                </ul>
-                            </li>
-                            <li {{ Control == "Vcomisiones" ? 'class="activo"' : '' }}{{ Control == "Comisiones"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-ticket'></i> Comisiones"}}</a>
-                                <ul class="submenu"  id="sumenu">
-                                    <li class="item-submenu">
-                                        {{ Html.Link("vcomisiones/index","<i class='fa fa-ticket'></i> Vista Comisiones")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("comisiones/index","<i class='fa fa-ticket'></i> Listado Comisiones")}}
-                                    </li>
-                                </ul>
-                            </li>
-                            <li {{ Control == "Vgaleria" ? 'class="activo"' : '' }}{{ Control == "Comisiones"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-picture-o'></i> Galería"}}</a>
-                                <ul class="submenu"  id="sumenu">
-                                    <li class="item-submenu">
-                                        {{ Html.Link("vgaleria/index","<i class='fa fa-smile-o'></i> Vista Galería")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("videos/index","<i class='fa fa-video-camera'></i> Slider Videos")}}
+                                        {{ Html.Link("videos/index","<i class='fa fa-video-camera'></i> Videos")}}
                                     </li>
                                     <!--<li class="item-submenu">
                                         {{ Html.Link("galeriafolders/index","<i class='fa fa-folder-open-o'></i> Carpeta de Imágenes")}}
                                     </li>-->
-                                     <li class="item-submenu">
-                                        {{ Html.Link("galeriaimages/index","<i class='fa fa-picture-o'></i> Imágenes")}}
-                                    </li>
+                                     
                                 </ul>
-                            </li>
-                            <li {{ Control == "Donaciones" ? 'class="activo"' : '' }}{{ Control == "Sponsors"  ? 'class="activo"' : '' }}{{ Control == "Etiquetas"  ? 'class="activo"' : '' }}>
-                                <a>{{"<i class='fa fa-money'></i> Donativos"}}</a>
-                                <ul class="submenu"  id="sumenu">
-                                    <li class="item-submenu">
-                                        {{ Html.Link("donaciones/index","<i class='fa fa-money'></i> Vista Donativos")}}
-                                    </li>
-                                    <li class="item-submenu">
-                                        {{ Html.Link("sponsors/index","<i class='fa fa-user'></i> Sponsors")}}
-                                    </li>
-                                     <li class="item-submenu">
-                                        {{ Html.Link("donativo/index","<i class='fa fa-gift'></i> Vista Donativo")}}
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="item-submenu">
-                                {{ Html.Link("liga/index","<i class='fa fa-futbol-o'></i> Vista Liga")}}
                             </li>
                             <li class="item-submenu">
                                 {{ Html.Link("contacto/index","<i class='fa fa-envelope'></i> Vista Contacto")}}
-                            </li>
-                            <li class="item-submenu">
-                                {{ Html.Link("empresas/index","<i class='fa fa-building-o'></i> Vista Empresas")}}
-                            </li>
-                            <li class="item-submenu">
-                                {{ Html.Link("footer/index","<i class='fa fa-heart'></i> Vista Footer")}}
                             </li>
                         </ul>
                     </nav>
@@ -198,7 +119,7 @@
                             </button>
                         </div>
                         <div class="derechos2">
-                            {{"Derechos Reservados-"}}{{ Html.Img("fileimages/sesmark_blanco.svg", {"class":"logo-derechos2","link":""}) }}{{""}}
+                            {{"Derechos Reservados-"}}{{ Html.Img("templates/admin/Bonzer Logo-02.png", {"class":"logo-derechos2","link":""}) }}{{""}}
                         </div>
                       </footer>
                     </div>
@@ -225,7 +146,7 @@
 
                         </div>
                     <div class="modal-footer">
-                      {{ Html.Img("templates/admin/sesmarklogo2-01.svg", {"class":"logo-derechos2","link":""}) }}
+                      {{ Html.Img("templates/admin/Bonzer Logo-02.png", {"class":"logo-derechos2","link":""}) }}
                     </div>
                 </div>
             </div>

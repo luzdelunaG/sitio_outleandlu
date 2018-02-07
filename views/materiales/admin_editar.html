@@ -1,0 +1,73 @@
+<div class="row clearfix">
+	{{ Form.create("guardar/"~id,"frmMateriales") }}
+    <label class="col-md-12">Materiales de Entretenimiento Lean</label>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_seo",{"label":{"text":"Título SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("description_seo",{"label":{"text":"Descripción SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("keywords_seo",{"label":{"text":"Palabras Clave SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list">
+                <img id="imgFoto" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("img",{"label":{"text":"Imagen de Recuadro", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_mat",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+		<div class="col-md-12 colum">
+			 <div class="form-group">
+					{{ Form.Input("subt_mat",{"label":{"text":"Subtítulo:", "class":"control-label"}, "class":"form-control"}) }}
+			 </div>
+	 </div>
+  	<div class="col-md-12 colum">
+  		<div class="form-group">
+  			{{ Form.TextArea("txt_mat",{"label":{"text":"Texto:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+  		</div>
+  	</div>
+  	<div class="col-md-12 colum">
+  		 <div class="form-group">
+  				{{ Form.Input("subtd_mat",{"label":{"text":"Subtítulo:", "class":"control-label"}, "class":"form-control"}) }}
+  		 </div>
+   </div>
+   <div class="col-md-12 colum">
+  		<div class="form-group">
+  			{{ Form.TextArea("txtd_mat",{"label":{"text":"Texto:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+  		</div>
+   </div>
+   <label class="col-md-12">Recuadro Gris</label>
+   <div class="col-md-12 colum">
+      <div class="form-group">
+         {{ Form.Input("cat_mat",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+      </div>
+  </div>
+  <div class="col-md-12 colum">
+     <div class="form-group">
+        {{ Form.Input("catd_mat",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+     </div>
+ </div>
+ <div class="col-md-12 colum">
+    <div class="form-group">
+       {{ Form.Input("catt_mat",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+    </div>
+</div>
+   <div class="col-md-12 colum">
+     {{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+   {{Html.Link("materiales","Cancelar",{"class":"btn btn-agregar"})}}
+   {{ Form.End() }}
+   </div>
+</div>

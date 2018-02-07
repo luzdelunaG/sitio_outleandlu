@@ -79,13 +79,13 @@ class PHPMailer {
    * Sets the From email address for the message.
    * @var string
    */
-  public $From              = 'noreply@esperanzacontigo.org';
+  public $From              = 'info@bonzercreative.com';
 
   /**
    * Sets the From name of the message.
    * @var string
    */
-  public $FromName          = 'Fundación Esperanza Contigo, A.C.';
+  public $FromName          = 'Lean Outlet™';
 
   /**
    * Sets the Sender email (Return-Path) of the message.  If not empty,
@@ -197,7 +197,7 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = 'alfa.sesmarkclientes.com';
+  public $Host          = 'mail.bonzercreative.com';
 
   /**
    * Sets the default SMTP server port.
@@ -228,13 +228,13 @@ class PHPMailer {
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = 'noreply@esperanzacontigo.org';
+  public $Username      = 'info@bonzercreative.com';
 
   /**
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = '!hu+=L6okF!c';
+  public $Password      = 'info.2017';
 
   /**
    * Sets the SMTP server timeout in seconds.

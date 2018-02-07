@@ -1,0 +1,26 @@
+<div class="row clearfix">
+	{{ Form.create("guardar/"~id,"frmUsuarios") }}
+    <div class="col-md-12 colum">
+        <div class="col-md-6 colum" style="padding-left:0px;">
+        	<div class="form-group">
+               {{ Form.Input("nombre",{"label":{"text":"Nombre", "class":"control-label"}, "class":"form-control"}) }}
+        	</div>
+        </div>
+        <div class="col-md-6 colum" style="padding-left:0px;">
+            <div class="form-group">
+               {{ Form.Input("usuario",{"label":{"text":"Usuario", "class":"control-label"}, "class":"form-control"}) }}
+            </div>
+        </div>
+        <div class="col-md-6 colum" style="padding-left:0px;">
+            <div class="form-group">
+               {{ Form.Input("contrasena",{"label":{"text":"Contraseña", "class":"control-label"}, "class":"form-control", "type":"password"}) }}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+    		{{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+			{{Html.Link("usuarios","Cancelar",{"class":"btn btn-agregar"})}}
+			{{ Form.End() }}
+	</div>
+</div>
+

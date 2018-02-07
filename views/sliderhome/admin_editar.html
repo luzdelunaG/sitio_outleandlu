@@ -1,0 +1,22 @@
+<div class="row clearfix">
+    {{ Form.create("guardar/"~id,"frmSliderhome") }}
+    <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list">
+                <img id="imgFotoSl" src="fileimages/casos/camara-02.svg">
+            </div>
+            {{ Form.Input("imgsl",{"label":{"text":"Imagen del slider: ", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("txtslider_home",{"label":{"text":"Texto del Slider Home:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        {{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+        {{Html.Link("sliderhome","Cancelar",{"class":"btn btn-agregar"})}}
+        {{ Form.End() }}
+    </div>
+</div>
+

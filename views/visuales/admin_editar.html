@@ -1,0 +1,73 @@
+<div class="row clearfix">
+	{{ Form.create("guardar/"~id,"frmVisuales") }}
+    <label class="col-md-12">Controles Visuales</label>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_seo",{"label":{"text":"Título SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("description_seo",{"label":{"text":"Descripción SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("keywords_seo",{"label":{"text":"Palabras Clave SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list">
+                <img id="imgFoto" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("img",{"label":{"text":"Imagen de Recuadro", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_vis",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+		<div class="col-md-12 colum">
+			 <div class="form-group">
+					{{ Form.Input("subt_vis",{"label":{"text":"Subtítulo:", "class":"control-label"}, "class":"form-control"}) }}
+			 </div>
+	 </div>
+  	<div class="col-md-12 colum">
+  		<div class="form-group">
+  			{{ Form.TextArea("txt_vis",{"label":{"text":"Texto:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+  		</div>
+  	</div>
+  	<div class="col-md-12 colum">
+  		 <div class="form-group">
+  				{{ Form.Input("subtd_vis",{"label":{"text":"Subtítulo:", "class":"control-label"}, "class":"form-control"}) }}
+  		 </div>
+   </div>
+   <div class="col-md-12 colum">
+  		<div class="form-group">
+  			{{ Form.TextArea("txtd_vis",{"label":{"text":"Texto:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+  		</div>
+   </div>
+   <label class="col-md-12">Recuadro Gris</label>
+   <div class="col-md-12 colum">
+      <div class="form-group">
+         {{ Form.Input("cat_vis",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+      </div>
+  </div>
+  <div class="col-md-12 colum">
+     <div class="form-group">
+        {{ Form.Input("catd_vis",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+     </div>
+ </div>
+ <div class="col-md-12 colum">
+    <div class="form-group">
+       {{ Form.Input("catt_vis",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+    </div>
+</div>
+   <div class="col-md-12 colum">
+     {{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+   {{Html.Link("visuales","Cancelar",{"class":"btn btn-agregar"})}}
+   {{ Form.End() }}
+   </div>
+</div>

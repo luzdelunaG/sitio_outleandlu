@@ -1,0 +1,52 @@
+<section>
+  <div class="container slidegrand">
+      <div style="margin-top:4rem;" class="col-md-12 col-xs-12 padding marsecdoscontact">
+        <div class="col-md-6 col-xs-12">
+          <img alt="Cotiza sin Compromisos" src="fileimages/home/Cotiza.png">
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="col-md-12 col-xs-12"><h2>¡Regístrate!</h2></div>
+          {{ Form.create({control:"inicio",function:"guardar"},"frmRegistro") }}
+            <div class="form-group">
+              <div class="col-md-12">
+                <label class="labelcontact" for="nombre">Nombre:</label>
+                <input type="text" name="nombre" class="form-control1" id="nombre" aria-describedby="nombreHelp" placeholder="" required>
+                <!--{{ Form.Input("nombre",{"label":{"text":"Nombre del Usuario", "class":"control-label"}, "class":"form-control"}) }}-->
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label class="labelcontact" for="apellido">Apellido:</label>
+                <input type="text" name="apellido" class="form-control1" id="apellido" aria-describedby="apellidoHelp" placeholder="" required>
+                <!--{{ Form.Input("apellido",{"label":{"text":"Apellido del Usuario", "class":"control-label"}, "class":"form-control"}) }}-->
+              </div>
+             </div>
+             <div class="form-group">
+              <div class="col-md-12">
+                <label class="labelcontact" for="telefono">Teléfono:</label>
+                <input type="tel" name="tel" class="form-control1" id="tel" aria-describedby="telefonoHelp" placeholder="" required>
+                  <!-- {{ Form.Input("tel",{"label":{"text":"Teléfono:", "class":"control-label"}, "class":"form-control", "type":"tel"}) }}-->
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                 <label class="labelcontact" for="pais">Email:</label>
+                 <input type="email" name="email" class="form-control1" id="email" aria-describedby="telefonoHelp" placeholder="" required>
+                <!-- {{ Form.Input("email",{"label":{"text":"Email:", "class":"control-label"}, "class":"form-control", "type":"email"}) }}-->
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                 <label class="labelcontact" for="pais">Password:</label>
+                 <input type="password" name="contrasena" class="form-control1" id="contrasena" aria-describedby="telefonoHelp" placeholder="" required>
+                <!-- {{ Form.Input("contrasena",{"label":{"text":"Password:", "class":"control-label"}, "class":"form-control", "type":"password"}) }}-->
+              </div>
+            </div>
+            <div class="col-md-12 padenvcontbot" style="margin-top:2rem;">
+            <div class="col-md-2 padding"><button type="submit" class="enviarcont">Enviar</button></div><div style="margin-top:1rem;" class="col-md-10">Todos los campos son requeridos</div>
+            </div>
+          {{ Form.End() }}
+        </div>
+      </div>
+  </div>
+</section>

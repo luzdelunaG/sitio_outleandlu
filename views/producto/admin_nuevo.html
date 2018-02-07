@@ -1,0 +1,201 @@
+<div class="row clearfix">
+    {{ Form.create("guardar/"~id,"frmProducto") }}
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("nombre",{"label":{"text":"Nombre del Producto", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("modelo",{"label":{"text":"Modelo", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="form-group">
+            {{ Form.Input("id_tags",{"label":{"text":"Tags:", "class":"control-label"},required:true,"required":"true", "class":"form-control", style:"width:100%;"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("barras",{"label":{"text":"Código de Barras: ", "class":"control-label"}, "class":"form-control", "min":"1", "type":"number"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("url",{"label":{"text":"Url para acceder al Producto:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("descripcion",{"label":{"text":"Descripción", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-4 colum">
+        <div class="form-group">
+         <label class="control-label">Categoría del Producto</label>
+           <select class="form-control" id="categoria" name="categoria">
+               <option>Mobiliario Lean</option>
+               <option>Controles Visuales</option>
+               <option>Entrenamiento Lean</option>
+           </select>
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("cantidad",{"label":{"text":"Número de existencia del Producto", "class":"control-label"}, "class":"form-control", "type":"number"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("precio",{"label":{"text":"Precio del Producto, ej. (11000,00)", "class":"control-label"}, "class":"form-control", "type":"number", "min":"00000000.01", "step":"any" }) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("garantia",{"label":{"text":"Años de Garantia", "class":"control-label"}, "class":"form-control", "min":"1", "type":"number"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+            <div id="listf">
+                <img id="imgFotof" src="fileimages/casos/camara-02.svg">
+            </div>
+            {{ Form.Input("file",{"label":{"text":"Ficha Técnica:", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+            <div id="list">
+                <img id="imgFoto" src="fileimages/casos/camara-02.svg">
+            </div>
+            {{ Form.Input("img",{"label":{"text":"Imagen del Producto 1", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+            <div id="list2">
+                <img id="imgFoto2" src="fileimages/casos/camara-02.svg">
+            </div>
+            {{ Form.Input("imgd",{"label":{"text":"Imagen del Producto 2", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+            <div id="list3">
+                <img id="imgFoto3" src="fileimages/casos/camara-02.svg">
+            </div>
+            {{ Form.Input("imgt",{"label":{"text":"Imagen del Producto 3", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+            <div id="list4">
+                <img id="imgFoto4" src="fileimages/casos/camara-02.svg">
+            </div>
+            {{ Form.Input("imgc",{"label":{"text":"Imagen del Producto 4", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <!--<div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("url",{"label":{"text":"Url del Artículo", "class":"control-l   abel"}, "class":"form-control"}) }}
+        </div>
+    </div>-->
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("especifu",{"label":{"text":"Especificaciones 1 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("especifd",{"label":{"text":"Especificaciones 2 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("especift",{"label":{"text":"Especificaciones 3 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("especifc",{"label":{"text":"Especificaciones 4 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div> <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("especifcin",{"label":{"text":"Especificaciones 5 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("valoru",{"label":{"text":"Valoraciones 1 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("valord",{"label":{"text":"Especificaciones 2 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("valort",{"label":{"text":"Especificaciones 3 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("valorc",{"label":{"text":"Especificaciones 4 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div> <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("valorcin",{"label":{"text":"Especificaciones 5 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("faqsu",{"label":{"text":"FAQS 1 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("faqsd",{"label":{"text":"FAQS 2 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("faqst",{"label":{"text":"FAQS 3 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("faqsc",{"label":{"text":"FAQS 4 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div> <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.TextArea("faqscin",{"label":{"text":"FAQS 5 Fila", "class":"control-label"}, "class":"form-control",rows:"5"}) }}
+        </div>
+    </div>
+    <!--<div class="col-md-4">
+        <div class="form-group">
+            {{ Form.Select("id_categoria",{"label":{"text":"Categoría:", "class":"control-label"},"required":"true", "class":"form-control",style:"width:100%;"})}}
+        </div>
+    </div>
+     <div class="col-md-12">
+        <div class="seo col-md-12 colum">
+            <div class="form-group">
+            {{ Form.Input("seo_title",{"label":{"text":"Título Seo", "class":"control-label"}, "class":"form-control"}) }}
+            </div>
+            <div class="form-group">
+            {{ Form.Input("seo_keyword",{"label":{"text":"Seo Keyword", "class":"control-label"}, "class":"form-control"}) }}
+            </div>
+            <div class="form-group">
+            {{ Form.Input("seo_description",{"label":{"text":"Seo Description", "class":"control-label"}, "class":"form-control"}) }}
+            </div>
+        </div>
+    </div>-->
+    <div class="col-md-12 colum">
+         <br>
+    </div>
+    <div class="col-md-12 colum">
+        {{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+        {{Html.Link("producto","Cancelar",{"class":"btn btn-agregar"})}}
+        {{ Form.End() }}
+    </div>
+</div>

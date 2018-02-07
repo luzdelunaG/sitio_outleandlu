@@ -1,0 +1,48 @@
+<div class="row clearfix">
+	{{ Form.create("guardar/"~id,"frmContacto") }}
+    <label class="col-md-12">Contacto</label>
+		<div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("titulo_seo",{"label":{"text":"Título SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("description_seo",{"label":{"text":"Descripción SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+     <div class="col-md-12 colum">
+        <div class="form-group">
+           {{ Form.Input("keywords_seo",{"label":{"text":"Palabras Clave SEO:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-4 colum">
+        <div class="form-group">
+            <div id="list">
+                <img id="imgFotoP" src="fileimages/casos/camara-02.svg"/>
+            </div>
+               {{ Form.Input("imgcont",{"label":{"text":"Imagen de portada de Contacto", "class":"control-label"}, "type":"file" }) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+    	<div class="form-group">
+           {{ Form.Input("titcont_contacto",{"label":{"text":"Título:", "class":"control-label"}, "class":"form-control"}) }}
+    	</div>
+    </div>
+    <label class="col-md-12">Sección Contacto</label>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+            {{ Form.TextArea("txtcont_contacto",{"label":{"text":"Texto:", "class":"control-label"}, "class":"form-control", rows:"5"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+        <div class="form-group">
+             {{ Form.Input("fracont_contacto",{"label":{"text":"Frase:", "class":"control-label"}, "class":"form-control"}) }}
+        </div>
+    </div>
+    <div class="col-md-12 colum">
+    	{{Form.Submit("Guardar",{"class":"btn  btn-agregar"})}}
+		{{Html.Link("contacto","Cancelar",{"class":"btn btn-agregar"})}}
+		{{ Form.End() }}
+	</div>
+</div>
